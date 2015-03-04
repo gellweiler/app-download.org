@@ -1,0 +1,158 @@
+<?php $COMMON_DEVICES_NAMES = unserialize(COMMON_DEVICES_NAMES); ?>
+<div class="col-md-4">
+    <div class="tile">
+
+        <?php /* Split each tile into 3 rows (.tile-top, .tile-center, .tile-bottom). */ ?>
+        <div class="tile-top">
+            <h4><?php qe(_('Devices')); ?></h4>
+            <img
+                src="<?php qe(BASE_URL); ?>ext-libs/circle-icons/<?php qe($this->active ? 'full' : 'one'); ?>-color/smartphone.svg"
+                class="tile-image big-illustration"
+            >
+        </div>
+        <?php if($this->state == AppState::LOGGEDIN): ?>
+            <?php if(!empty($this->devices)): ?>
+                <?php /* If devices exist show the devices the user has registrated in the main area. */ ?>
+                <div class="tile-center">
+                    <div class="btn-group select select-block">
+                        <button class="btn  btn-primary dropdown-toggle clearfix" data-toggle="dropdown">
+                            <span class="pull-left"><?php qe(_('Your devices')); ?></span>
+                            <span class="caret"></span>
+                        </button>
+                        <span class="dropdown-arrow dropdown-arrow-inverse"></span>
+                        <ul class="dropdown-menu dropdown-inverse" role="menu">
+                            <?php foreach($this->devices as $name => $deviceid): ?>
+                                <li>
+                                    <a
+                                        href="<?php qe(url_token(url('device/deviceid/' . $deviceid))); ?>"
+                                    ><?php echo ($this->incognito)
+                                      ? $COMMON_DEVICES_NAMES[$name] : q($name); ?>
+                                    </a>
+                                </li>
+                            <?php endforeach;?>
+                        </ul>
+                    </div>
+                    <?php /* If the user is using an incognito acount place help here. */ ?>
+                    <?php if($this->incognito): ?>
+                        <a
+                            class="input-help"
+                            href="<?php qe(url('help')); ?>#devices"
+                            target="_blank"
+                        >
+                            <i aria-hidden="true" class="glyphicon glyphicon-question-sign notranslate"></i>
+                        </a>
+                    <?php endif; ?>
+                </div>
+
+                <?php /* If devices exist move the new devices dialog into the footer
+                as a collapsible panel. Completly hide the dialog if the user is using an anonymous account. */ ?>
+                <div class="tile-bottom">
+                    <?php if(!$this->incognito): ?>
+                        <div class="panel-group" id="new-device">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#new-device" href="#new-device-content">
+                                            <i class="fui-plus"></i> <?php qe(_('new device')); ?>
+                                            <a
+                                                aria-hidden="true"
+                                                class="glyphicon glyphicon-question-sign input-help notranslate"
+                                                href="<?php qe(url('help')); ?>#devices"
+                                                target="_blank"
+                                            ></a>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="new-device-content" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                    <?php endif; ?>
+            <?php else: ?>
+                <?php /* If the user has no devices move the create new devices dialog into the main area. */ ?>
+                <div class="tile-center">
+            <?php endif; ?>
+            <?php /* Hide adding new devices dialog if the user is using an incognito account. */ ?>
+            <?php if(!$this->incognito): ?>
+                <form role="form" name="new-device" method="post" action="<?php qe(url('device/add')); ?>">
+                    <?php input_token(); ?>
+                    <div>
+                        <div class="left-dropdown">
+                            <label for="device-type" class="sr-only"><?php qe(_('Device to Registrer')); ?>:</label>
+                            <select id="device-type" name="device-type" class="select-block">
+                                <?php foreach (DeviceManager::listAvailableDevices() as $machine_name => $human_name): ?>
+                                    <option value="<?php qe($machine_name); ?>"><?php qe($human_name); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="right-dropdown">
+                            <label for="device-country" class="sr-only"><?php qe(_('The country of the device')); ?>:</label>
+                            <select id="device-country" name="device-country" class="select-block">
+                                <?php foreach (LanguageCodes::$languages as $code => $label): ?>
+                                    <option value="<?php qe($code); ?>"><?php qe($label); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="device-name" class="sr-only"><?php qe(_('A name for your device')); ?>:</label>
+                        <div class="input-group" >
+                            <div class="input-group-addon"><i class="fui-chat"></i></div>
+                            <input
+                                name="device-name"
+                                id="device-name"
+                                placeholder="<?php qe(_('a name for the device')); ?>"
+                                class="form-control"
+                                type="text"
+                                required
+                            >
+                        </div>
+                        <?php /* If the user has no devices place the help button here. */ ?>
+                        <?php if(empty($this->devices)): ?>
+                            <a
+                                class="btn-block text-right"
+                                href="<?php qe(url('help')); ?>#devices"
+                                target="_blank"
+                            >
+                                <i arclass="glyphicon glyphicon-question-sign notranslate"></i>
+                            </a>
+                        <?php endif; ?>
+                    </div>
+
+                    <?php /* If the user has no devices move the create new device button into the footer. */ ?>
+                    <?php if(empty($this->devices)): ?>
+                        </div><div class="tile-bottom">
+                    <?php endif; ?>
+                    <button type="submit" class="btn btn-primary btn-block"><?php qe(_('add device')); ?></button>
+                </form>
+            <?php endif; ?>
+
+            <?php if(!empty($this->devices) && (!$this->incognito)): ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php else: ?>
+                </div>
+            <?php endif; ?>
+        <?php elseif ($this->state >= AppState::MARKET): ?>
+            <div class="tile-center">
+                <p><strong>
+                <?php $name = Session::getInstance()->device_manager->deviceName(
+                  Session::getInstance()->market->deviceid);
+                    qe($this->incognito ? $COMMON_DEVICES_NAMES[$name] : $name);
+                ?></strong></p>
+            </div>
+            <div class="tile-bottom">
+                <a
+                    href="<?php qe(url_token(url('device/change'))); ?>"
+                    class="btn btn-block btn-info"
+                ><?php qe(_('Change Device')); ?></a>
+            </div>
+        <?php else: ?>
+            <div class="tile-center"></div>
+            <div class="tile-bottom"></div>
+        <?php endif; ?>
+    </div><!-- /tile -->
+</div><!-- /col -->

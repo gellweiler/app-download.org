@@ -1,0 +1,1768 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: app-download.org\n"
+"POT-Creation-Date: 2015-03-04 22:13+0100\n"
+"PO-Revision-Date: 2015-03-04 22:16+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <contact@app-download.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_f\n"
+"X-Poedit-Basepath: /var/www/html/google/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/html/google\n"
+
+#: /var/www/html/google/classes/Checkin.class.php:41
+msgid "Login failed: No SID received."
+msgstr "Anmelden Fehlgeschlagen: Keine SID erhalten."
+
+#: /var/www/html/google/classes/Checkin.class.php:127
+#, php-format
+msgid "Device %s is not supported."
+msgstr "Gerät %s wird nicht unterstützt."
+
+#: /var/www/html/google/classes/Checkin.class.php:282
+msgid "Failed to check-in device: Request timed out."
+msgstr "Konnte das Gerät nicht anmelden: Anfrage dauert zu lange."
+
+#: /var/www/html/google/classes/Checkin.class.php:284
+#, php-format
+msgid "Failed to check-in device: %s"
+msgstr "Konnte das Gerät nicht anmelden: %s"
+
+#: /var/www/html/google/classes/Checkin.class.php:291
+msgid "Failed to check-in device: Received no deviceid."
+msgstr "Konnte das Gerät nicht anmelden: Keine Device-ID erhalten."
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:8
+msgid "English - United States"
+msgstr "Englisch – USA"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:9
+msgid "Afrikaans - South Africa"
+msgstr "Afrikaans - Südafrika"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:10
+msgid "Albanian - Albania"
+msgstr "Albanisch - Albanien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:11
+msgid "Arabic - Algeria"
+msgstr "Arabisch - Algerien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:12
+msgid "Arabic - Bahrain"
+msgstr "Alrabisch - Bahrain"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:13
+msgid "Arabic - Egypt"
+msgstr "Arabisch - Ägypten"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:14
+msgid "Arabic - Iraq"
+msgstr "Arabisch - Irak"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:15
+msgid "Arabic - Jordan"
+msgstr "Arabisch - Jordanien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:16
+msgid "Arabic - Kuwait"
+msgstr "Arabisch - Kuwait"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:17
+msgid "Arabic - Lebanon"
+msgstr "Arabisch - Libanon"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:18
+msgid "Arabic - Libya"
+msgstr "Arabisch - Libyen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:19
+msgid "Arabic - Morocco"
+msgstr "Arabisch - Marokko"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:20
+msgid "Arabic - Oman"
+msgstr "Arabisch - Oman"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:21
+msgid "Arabic - Qatar"
+msgstr "Arabisch - Katar"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:22
+msgid "Arabic - Saudi Arabia"
+msgstr "Arabisch - Saudi-Arabien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:23
+msgid "Arabic - Syria"
+msgstr "Arabisch - Syrisch"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:24
+msgid "Arabic - Tunisia"
+msgstr "Arabisch - Tunesien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:25
+msgid "Arabic - United Arab Emirates"
+msgstr "Arabisch - Vereinigte Arabische Emirate"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:26
+msgid "Arabic - Yemen"
+msgstr "Arabisch - Yemen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:27
+msgid "Armenian - Armenia"
+msgstr "Armenian - Armenien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:28
+msgid "Azeri (Cyrillic) - Azerbaijan"
+msgstr "Azeri (kyrillisch) – Aserbaidschan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:29
+msgid "Azeri (Latin) - Azerbaijan"
+msgstr "Azeri (lateinisch) – Aserbaidschan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:30
+msgid "Basque - Basque"
+msgstr "Baskisch - Baskenland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:31
+msgid "Belarusian - Belarus"
+msgstr "Weißrussisch - Weißrussland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:32
+msgid "Bulgarian - Bulgaria"
+msgstr "Bulgarisch - Bulgarien "
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:33
+msgid "Catalan - Catalan"
+msgstr "Katalanisch - Katalanien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:34
+msgid "Chinese - China"
+msgstr "Chinesisch - China"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:35
+msgid "Chinese - Hong Kong SAR"
+msgstr "Chinesisch - Hong Kong"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:36
+msgid "Chinese - Macau SAR"
+msgstr "Chinesisch - Macao"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:37
+msgid "Chinese - Singapore"
+msgstr "Chinesisch - Singapur"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:38
+msgid "Chinese - Taiwan"
+msgstr "Chinesisch - Taiwan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:39
+msgid "Chinese (Simplified)"
+msgstr "Chinesisch (vereinfacht)"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:40
+msgid "Chinese (Traditional)"
+msgstr "Chinesisch (traditionell)"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:41
+msgid "Croatian - Croatia"
+msgstr "Kroatisch - Kroatien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:42
+msgid "Czech - Czech Republic"
+msgstr "Tschechisch - Tschechische Republik"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:43
+msgid "Danish - Denmark"
+msgstr "Dänisch - Dänemark"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:44
+msgid "Dhivehi - Maldives"
+msgstr "Dhivehi - Malediven"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:45
+msgid "Dutch - Belgium"
+msgstr "Flämisch - Belgien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:46
+msgid "Dutch - The Netherlands"
+msgstr "Flämisch - Niederlande"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:47
+msgid "English - Australia"
+msgstr "Englisch - Australien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:48
+msgid "English - Belize"
+msgstr "Englisch - Belize"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:49
+msgid "English - Canada"
+msgstr "Englisch - Kanada"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:50
+msgid "English - Caribbean"
+msgstr "Englisch - Karibische Inseln"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:51
+msgid "English - Ireland"
+msgstr "Englisch - Irland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:52
+msgid "English - Jamaica"
+msgstr "Englisch - Jamaika"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:53
+msgid "English - New Zealand"
+msgstr "Englisch - Neuseeland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:54
+msgid "English - Philippines"
+msgstr "Englisch - Philipienen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:55
+msgid "English - South Africa"
+msgstr "Englisch - Südafrika"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:56
+msgid "English - Trinidad and Tobago"
+msgstr "Englisch - Trinidad und Tobago"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:57
+msgid "English - United Kingdom"
+msgstr "Englisch - Vereinigtes Köngireich"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:58
+msgid "English - Zimbabwe"
+msgstr "Englisch - Zimbabwe"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:59
+msgid "Estonian - Estonia"
+msgstr "Estnisch - Estland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:60
+msgid "Faroese - Faroe Islands"
+msgstr "Färöisch - Färöer"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:61
+msgid "Farsi - Iran"
+msgstr "Persisch - Iran"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:62
+msgid "Finnish - Finland"
+msgstr "Finnisch - Finnland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:63
+msgid "French - Belgium"
+msgstr "Französisch - Belgien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:64
+msgid "French - Canada"
+msgstr "Französisch - Kanada"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:65
+msgid "French - France"
+msgstr "Französisch - Frankreich"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:66
+msgid "French - Luxembourg"
+msgstr "Französisch - Luxemburg"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:67
+msgid "French - Monaco"
+msgstr "Französisch - Schweiz"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:68
+msgid "French - Switzerland"
+msgstr "Französisch - Schweiz"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:69
+msgid "Galician - Galician"
+msgstr "Galicisch - Iberische Halbinsel"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:70
+msgid "Georgian - Georgia"
+msgstr "Georgisch - Georgien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:71
+msgid "German - Austria"
+msgstr "Deutsch - Österreich"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:72
+msgid "German - Germany"
+msgstr "Deutsch - Deutschland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:73
+msgid "German - Liechtenstein"
+msgstr "Deutsch - Lichtenstein"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:74
+msgid "German - Luxembourg"
+msgstr "Deutsch - Luxemburg"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:75
+msgid "German - Switzerland"
+msgstr "Deutsch - Schweiz"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:76
+msgid "Greek - Greece"
+msgstr "Griechisch - Griechenland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:77
+msgid "Gujarati - India"
+msgstr "Gujarati - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:78
+msgid "Hebrew - Israel"
+msgstr "Hebräisch - Israel"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:79
+msgid "Hindi - India"
+msgstr "Hindu - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:80
+msgid "Hungarian - Hungary"
+msgstr "Ungarisch - Ungarn"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:81
+msgid "Icelandic - Iceland"
+msgstr "Isländisch - Island"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:82
+msgid "Indonesian - Indonesia"
+msgstr "Indonesisch - Indonesien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:83
+msgid "Italian - Italy"
+msgstr "Italienisch - Italien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:84
+msgid "Italian - Switzerland"
+msgstr "Italienisch - Schweiz"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:85
+msgid "Japanese - Japan"
+msgstr "Japanisch - Japan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:86
+msgid "Kannada - India"
+msgstr "Kannada - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:87
+msgid "Kazakh - Kazakhstan"
+msgstr "Kasachisch - Kasachstan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:88
+msgid "Konkani - India"
+msgstr "Konkani - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:89
+msgid "Korean - Korea"
+msgstr "Korea - Koreanisch"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:90
+msgid "Kyrgyz - Kazakhstan"
+msgstr "Kirgisisch - Kasachstan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:91
+msgid "Latvian - Latvia"
+msgstr "Lettisch - Lettland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:92
+msgid "Lithuanian - Lithuania"
+msgstr "Litauisch - Litauen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:93
+msgid "Macedonian (FYROM)"
+msgstr "Mazedonisch (EJRM)"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:94
+msgid "Malay - Brunei"
+msgstr "Malaiisch - Brunei"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:95
+msgid "Malay - Malaysia"
+msgstr "Malaiisch - Malaysia"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:96
+msgid "Marathi - India"
+msgstr "Marathi - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:97
+msgid "Mongolian - Mongolia"
+msgstr "Mongolisch - Mongolei"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:98
+msgid "Norwegian (Bokmål) - Norway"
+msgstr "Norwegisch (Bokmål) - Norwegen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:99
+msgid "Norwegian (Nynorsk) - Norway"
+msgstr "Norwegisch (Nynorsk) - Norwegen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:100
+msgid "Polish - Poland"
+msgstr "Polnisch - Polen"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:101
+msgid "Portuguese - Brazil"
+msgstr "Portugiesisch - Brasilien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:102
+msgid "Portuguese - Portugal"
+msgstr "Portugiesisch - Portugal"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:103
+msgid "Punjabi - India"
+msgstr "Panjabi - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:104
+msgid "Romanian - Romania"
+msgstr "Rumänisch - Rumänien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:105
+msgid "Russian - Russia"
+msgstr "Russisch - Russland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:106
+msgid "Sanskrit - India"
+msgstr "Sanskrit - Indisch"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:107
+msgid "Serbian (Cyrillic) - Serbia"
+msgstr "Serbisch (kyrillisch)"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:108
+msgid "Serbian (Latin) - Serbia"
+msgstr "Serbisch (lateinisch)"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:109
+msgid "Slovak - Slovakia"
+msgstr "Slowakisch - Slowakei"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:110
+msgid "Slovenian - Slovenia"
+msgstr "Slowenisch - Slowenien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:111
+msgid "Spanish - Argentina"
+msgstr "Spanisch - Argentinien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:112
+msgid "Spanish - Bolivia"
+msgstr "Spanisch - Bolivien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:113
+msgid "Spanish - Chile"
+msgstr "Spanisch - Chile"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:114
+msgid "Spanish - Colombia"
+msgstr "Spanisch - Kolumbien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:115
+msgid "Spanish - Costa Rica"
+msgstr "Spanisch - Costa Rica"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:116
+msgid "Spanish - Dominican Republic"
+msgstr "Spanisch - Dominikanische Republik"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:117
+msgid "Spanish - Ecuador"
+msgstr "Spanisch - Ecuador"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:118
+msgid "Spanish - El Salvador"
+msgstr "Spanisch - El Salvador"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:119
+msgid "Spanish - Guatemala"
+msgstr "Spanisch - Guatemala"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:120
+msgid "Spanish - Honduras"
+msgstr "Spanisch - Honduras"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:121
+msgid "Spanish - Mexico"
+msgstr "Spanisch - Mexico"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:122
+msgid "Spanish - Nicaragua"
+msgstr "Spanisch - Nicaragua"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:123
+msgid "Spanish - Panama"
+msgstr "Spanisch - Panama"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:124
+msgid "Spanish - Paraguay"
+msgstr "Spanisch - Paraguay"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:125
+msgid "Spanish - Peru"
+msgstr "Spanisch - Peru"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:126
+msgid "Spanish - Puerto Rico"
+msgstr "Spanisch - Puerto Rico"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:127
+msgid "Spanish - Spain"
+msgstr "Spanisch - Spanien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:128
+msgid "Spanish - Uruguay"
+msgstr "Spanisch - Uruguay"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:129
+msgid "Spanish - Venezuela"
+msgstr "Spanisch - Venezuela"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:130
+msgid "Swahili - Kenya"
+msgstr "Swahili - Kenia"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:131
+msgid "Swedish - Finland"
+msgstr "Schwedisch - Finnland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:132
+msgid "Swedish - Sweden"
+msgstr "Schwedisch - Schweden"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:133
+msgid "Syriac - Syria"
+msgstr "Syrisch - Syrien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:134
+msgid "Tamil - India"
+msgstr "Tamil - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:135
+msgid "Tatar - Russia"
+msgstr "Tatarisch - Russland"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:136
+msgid "Telugu - India"
+msgstr "Telugu - Indien"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:137
+msgid "Thai - Thailand"
+msgstr "Thai - Thailand"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:138
+msgid "Turkish - Turkey"
+msgstr "Türkisch - Türkei"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:139
+msgid "Ukrainian - Ukraine"
+msgstr "Ukrainisch - Ukraine"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:140
+msgid "Urdu - Pakistan"
+msgstr "Urdu - Pakistan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:141
+msgid "Uzbek (Cyrillic) - Uzbekistan"
+msgstr "Usbekisch (kyrillisch) -Usbekistan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:142
+msgid "Uzbek (Latin) - Uzbekistan"
+msgstr "Usbekisch (lateinisch) -Usbekistan"
+
+#: /var/www/html/google/classes/LanguageCodes.class.php:143
+msgid "Vietnamese - Vietnam"
+msgstr "Vietnamesisch - Vietnam"
+
+#: /var/www/html/google/classes/GoogleAccount.class.php:73
+msgid "Login failed: Request timed out."
+msgstr "Anmeldung fehlgeschlagen: Anfrage dauerte zu lange."
+
+#: /var/www/html/google/classes/GoogleAccount.class.php:76
+msgid "Login failed: The email or password you entered is incorrect."
+msgstr ""
+"Anmeldung fehlgeschlagen: Die E-Mail-Adresse oder das Passwort ist falsch."
+
+#: /var/www/html/google/classes/GoogleAccount.class.php:81
+msgid "Login failed for an unknown reason."
+msgstr ""
+"Anmeldung fehlgeschlagen: Anmeldung fehlgeschlagen aus einem unbekannten "
+"Grund."
+
+#: /var/www/html/google/classes/AndroidMarket.class.php:21
+msgid "Login failed: No auth key received."
+msgstr "Anmeldung fehlgeschlagen: Kein Authentifizierungsschlüssel erhalten"
+
+#: /var/www/html/google/classes/AndroidMarket.class.php:69
+msgid "Failed to fetch download information: Request timed out."
+msgstr "Konnte keine Downloadinformationen erhalten: Anfrage dauerte zu lange."
+
+#: /var/www/html/google/classes/AndroidMarket.class.php:74
+msgid ""
+"Oh no! Something went wrong. Possible reasons are:\n"
+"    1. The app might no longer be available on the Play Store.\n"
+"    2. App-Download.org usually simulates a Nexus 5. The app might not be "
+"available for that device.\n"
+"Please excuse this incident. The administrator has been notified."
+msgstr ""
+"Leider ist ein Fehler aufgetreten. Mögliche Gründe sind:\n"
+"    1. Die App gibt es nicht mehr im Play Store.\n"
+"    2. App-Download.org simuliert in der Regel ein Nexus 5. Die App ist "
+"eventuell nicht für dieses Gerät verfügbar.\n"
+"Wir bitten Sie um Verständnis. Der Administrator ist benachrichtigt worden."
+
+#: /var/www/html/google/classes/AndroidMarket.class.php:98
+msgid "Could not get download information for given package."
+msgstr "Konnte keine Downloadinformationen für gegebenes Paket erhalten."
+
+#: /var/www/html/google/inc/data.php:6
+msgid "Application"
+msgstr "Anwendung"
+
+#: /var/www/html/google/inc/data.php:7 /var/www/html/google/views/help.phtml:4
+#: /var/www/html/google/views/help.phtml:13
+msgid "Help"
+msgstr "Hilfe"
+
+#: /var/www/html/google/inc/data.php:8
+msgid "Top 500 Apps"
+msgstr "Top 500 Apps"
+
+#: /var/www/html/google/inc/data.php:9
+#: /var/www/html/google/views/contact.phtml:4
+#: /var/www/html/google/views/contact.phtml:19
+msgid "Contact"
+msgstr "Kontakt"
+
+#: /var/www/html/google/inc/data.php:10
+#: /var/www/html/google/views/terms.phtml:4
+#: /var/www/html/google/views/terms.phtml:11
+msgid "Terms of Service"
+msgstr "AGB"
+
+#: /var/www/html/google/inc/data.php:11
+msgid "Legal Info"
+msgstr "Impressum"
+
+#: /var/www/html/google/inc/data.php:12
+#: /var/www/html/google/views/privacy.phtml:4
+#: /var/www/html/google/views/privacy.phtml:13
+msgid "Data Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: /var/www/html/google/inc/data.php:31
+msgid "Generic Device (English)"
+msgstr "Standardgerät (Englisch)"
+
+#: /var/www/html/google/inc/data.php:32
+msgid "Generic Device (German)"
+msgstr "Standardgerät (Deutsch)"
+
+#: /var/www/html/google/inc/data.php:33
+msgid "Generic Device (Spanish)"
+msgstr "Standardgerät (Spanisch)"
+
+#: /var/www/html/google/inc/data.php:34
+msgid "Generic Device (French)"
+msgstr "Standardgerät (Französisch)"
+
+#: /var/www/html/google/inc/data.php:35
+msgid "Generic Device (Russian)"
+msgstr "Standardgerät (Russisch)"
+
+#: /var/www/html/google/inc/data.php:36
+msgid "Generic Device (Mandarin Chinese)"
+msgstr "Standardgerät (Mandarin Chinesisch)"
+
+#: /var/www/html/google/controllers/account.class.php:44
+msgid "You are already logged in."
+msgstr "Sie sind bereits angemeldet."
+
+#: /var/www/html/google/controllers/apps.class.php:56
+#, php-format
+msgid ""
+" %s[more]%s<br><br><i>This is a short extract from %s<br>%sCopyright notice"
+"%s</i>"
+msgstr ""
+" %s[mehr]%s<br><br><i>Dies ist ein kurzer Auszug aus %s<br>"
+"%sUrheberrechtlicher Hinweis%s</i>"
+
+#: /var/www/html/google/controllers/apps.class.php:67
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: /var/www/html/google/controllers/apps.class.php:69
+#, php-format
+msgid ""
+"App-Download.org has no description for this app, however you can still "
+"download the app using the %sdownload link%s. Please visit the %sPlay Store"
+"%s for information about this app."
+msgstr ""
+"App-Download.org hat keine Beschreibung für diese App, trotzdem können Sie "
+"die App mit dem %sDownload Link%s herunterladen. Bitte besuchen Sie den "
+"%sPlay Store%s für mehr Informationen über diese App."
+
+#: /var/www/html/google/controllers/apps.class.php:77
+#, php-format
+msgid "Could not find app with package name \"%s\"."
+msgstr "Konnte keine App mit dem Paketnamen \"%s\" finden."
+
+#: /var/www/html/google/views/account.phtml:6
+msgid "Google account"
+msgstr "Google Konto"
+
+#: /var/www/html/google/views/account.phtml:29
+#, php-format
+msgid "I have read and accept the %sToS%s"
+msgstr "Ich kenne und akzeptiere die %sAGB%s"
+
+#: /var/www/html/google/views/account.phtml:44
+#: /var/www/html/google/views/help.phtml:78
+#: /var/www/html/google/views/help.phtml:82
+msgid "Anonymous Login"
+msgstr "Anonym anmelden"
+
+#: /var/www/html/google/views/account.phtml:64
+msgid "Login with your Google account"
+msgstr "Eigenes Google Konto verwenden"
+
+#: /var/www/html/google/views/account.phtml:77
+msgid "Your Gmail Email"
+msgstr "Ihre Gmail E-Mail-Adresse"
+
+#: /var/www/html/google/views/account.phtml:90
+msgid "Gmail address"
+msgstr "Gmail Adresse"
+
+#: /var/www/html/google/views/account.phtml:98
+msgid "Your Gmail Password"
+msgstr "Ihr Gmail Passwort"
+
+#: /var/www/html/google/views/account.phtml:109
+msgid "Password"
+msgstr "Passwort"
+
+#: /var/www/html/google/views/account.phtml:121
+msgid "Log in"
+msgstr "Anmelden"
+
+#: /var/www/html/google/views/account.phtml:131
+msgid "You're using the incognito login mode"
+msgstr "Sie benutzen den anonymen Anmeldemodus."
+
+#: /var/www/html/google/views/account.phtml:134
+#, php-format
+msgid "Welcome %s %s (%s)"
+msgstr "Willkommen %s %s (%s)"
+
+#: /var/www/html/google/views/app.phtml:4
+#, php-format
+msgid "Download %s"
+msgstr "Download %s"
+
+#: /var/www/html/google/views/app.phtml:14
+msgid "by"
+msgstr "von"
+
+#: /var/www/html/google/views/app.phtml:23
+#: /var/www/html/google/views/apps.phtml:47
+msgid "Download App"
+msgstr "Download App"
+
+#: /var/www/html/google/views/app.phtml:38
+#: /var/www/html/google/views/apps.phtml:62
+msgid "Show in Play Store"
+msgstr "Im Play Store anzeigen"
+
+#: /var/www/html/google/views/app.phtml:49
+msgid "Description"
+msgstr "Beschreibung"
+
+#: /var/www/html/google/views/app.phtml:57
+#, php-format
+msgid ""
+"Download <strong>%s</strong> using the %sdownload link%s to install <strong>"
+"%s</strong> on your <strong>Kindle Fire</strong> or any other "
+"<strong>Android</strong> device."
+msgstr ""
+"Laden Sie <strong>%s</strong> mit dem %sDownload Link%s herunter, um <strong>"
+"%s</strong> auf Ihrem <strong>Kindle Fire</strong> oder jedem anderen "
+"<strong>Android</strong> Gerät, zu installieren."
+
+#: /var/www/html/google/views/direct_downloads.phtml:5
+msgid "Popular apps"
+msgstr "Beliebte Apps"
+
+#: /var/www/html/google/views/contact.phtml:20
+msgid ""
+"Feel free to contact me about anything that got to do with this webpage.\n"
+"                        I appreciate feedback. You can write your message in "
+"English or German.<br>\n"
+"                        You will receive a copy of your message via e-mail."
+msgstr ""
+"Hier können Sie mir eine Nachricht hinterlassen. Ich freue mich über Ihre "
+"Rückmeldung. Sie können Ihre Nachricht in Deutsch oder Englisch schreiben. "
+"Sie erhalten eine Kopie Ihrer Nachricht per E-Mail."
+
+#: /var/www/html/google/views/contact.phtml:44
+msgid ""
+"Your e-mail. Lea&nbsp;ve this field&nbsp;&nbsp;E&nbsp;M&nbsp;P&nbsp;T&nbsp;Y"
+msgstr "Ihre E-Mail-Adresse; lassen Sie dieses Feld L&nbsp;E&nbsp;E&nbsp;R"
+
+#: /var/www/html/google/views/contact.phtml:55
+msgid "Your Name (not required)"
+msgstr "Ihr Name (nicht zwingend benötigt)"
+
+#: /var/www/html/google/views/contact.phtml:60
+#: /var/www/html/google/views/contact.phtml:68
+msgid "Your e-mail address"
+msgstr "Ihre E-Mail-Adresse"
+
+#: /var/www/html/google/views/contact.phtml:75
+#: /var/www/html/google/views/contact.phtml:78
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+#: /var/www/html/google/views/contact.phtml:84
+msgid "Send message"
+msgstr "Senden"
+
+#: /var/www/html/google/views/impressum.phtml:4
+#: /var/www/html/google/views/impressum.phtml:13
+msgid "Legal Information"
+msgstr "Impressum"
+
+#: /var/www/html/google/views/impressum.phtml:20
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: /var/www/html/google/views/impressum.phtml:22
+msgid "Webpage"
+msgstr "Webseite"
+
+#: /var/www/html/google/views/impressum.phtml:27
+msgid "Teasers from App Descriptions from the Play Store"
+msgstr "Anrisstexte aus App-Beschreibungen des Play Store"
+
+#: /var/www/html/google/views/impressum.phtml:29
+#, php-format
+msgid ""
+"Original copyright owners of the full app descriptions are the individuals/"
+"coroporations that wrote the app description or their heirs. Outside of "
+"Germany copyright may be transferred to others, so the copyright holders "
+"might have changed. Additional third partys may earn the exclusive right of "
+"usage. Note that many of the app descriptions do not possess a high enough "
+"originality to be protected under copyright law.<br><br>Copyright is a "
+"difficult and complex subject. if you believe that the provider is commiting "
+"a copyright infringement against you or your company <strong>the provider is "
+"willing to remove or change the content in question</strong>.You can contact "
+"the provider through the %scontact from%s or you can write an e-mail to %s."
+"<br><br><strong>The provider believes that the short extracts used possess a "
+"too low level of originality on their own to be protected under copyright "
+"law.</strong>"
+msgstr ""
+"Besitzer der Urheberrechte der vollen App-Beschreibungen sind die Personen "
+"oder Unternehmen, die diese verfasst haben oder ihre Erben. Außerhalb "
+"Deutschlands kann Urheberrecht unter Umständen auf andere übertragen werden, "
+"deswegen können die Urheber inzwischen andere sein. Dritte können außerdem "
+"ein exklusives Nutzungsrecht besitzen. Viele Texte besitzen allerdings eine "
+"zu niedrige Schöpfungshöhe, um überhaupt schützenswert zu sein."
+"<br><br>Urheberrecht ist ein schwieriges Thema. Wenn Sie der Ansicht sind, "
+"dass der Anbieter eine Urheberrechtsverletzung gegen Sie begeht, <strong>ist "
+"der Anbieter bereit den infrage stehenden Inhalt zu ändern oder zu löschen.</"
+"strong> Sie können den Anbieter durch das %sKontaktformular%s oder via E-"
+"Mail (%s) erreichen.<br><br><strong>Der Anbieter ist der Auffassung, dass "
+"die kurzen verwendeten Ausschnitte eine zu niedrige Schöpfungshöhe besitzen, "
+"um Uhrheberrechtlich geschützt zu sein.</strong>"
+
+#: /var/www/html/google/views/help.phtml:16
+#: /var/www/html/google/views/help.phtml:24
+msgid "Popular Apps"
+msgstr "Beliebte Apps"
+
+#: /var/www/html/google/views/help.phtml:17
+#: /var/www/html/google/views/help.phtml:69
+msgid "Download Tool"
+msgstr "Download Werkzeug"
+
+#: /var/www/html/google/views/help.phtml:18
+msgid "Install apps"
+msgstr "Apps installieren"
+
+#: /var/www/html/google/views/help.phtml:19
+msgid "Update apps"
+msgstr "Apps Updaten"
+
+#: /var/www/html/google/views/help.phtml:20
+#: /var/www/html/google/views/help.phtml:235
+msgid "Todo"
+msgstr "Offene Punkte"
+
+#: /var/www/html/google/views/help.phtml:25
+msgid ""
+"You can download the newest version of some popular apps, from one of the "
+"following places:"
+msgstr "Sie können einige beliebte Apps wie folgt herunterladen:"
+
+#: /var/www/html/google/views/help.phtml:28
+msgid "The Popular Apps Box"
+msgstr "Die <i>&quot;Beliebte Apps&quot;</i>-Box"
+
+#: /var/www/html/google/views/help.phtml:29
+#, php-format
+msgid ""
+"You can download a few apps from the <i>Popular Apps</i> box on the %sfront "
+"page%s\n"
+"                                by clicking on any of the links in the box."
+msgstr ""
+"Sie können einige Apps aus der &quot;<i>Beliebte Apps</i>&quot;-Box auf der "
+"%sStartseite%s herunterladen."
+
+#: /var/www/html/google/views/help.phtml:40
+msgid "Click on a link to start the download of the corresponding app."
+msgstr ""
+"Klicken Sie auf einen der Links um den  Download der entsprechenden App zu "
+"starten."
+
+#: /var/www/html/google/views/help.phtml:46
+msgid "The Top 500 Apps List"
+msgstr "Die <i>&quot;Top 500 Apps&quot;</i>-Liste"
+
+#: /var/www/html/google/views/help.phtml:47
+#, php-format
+msgid ""
+"The 500 most popular apps from the Play Store are available in the %sTop 500 "
+"Apps%s list.\n"
+"                                You can download any app from that list or "
+"from its detail page by clicking on the corresponding download button."
+msgstr ""
+"Die 500 beliebtesten Apps aus dem Play Store sind in der %sTop 500 Apps%s-"
+"Liste verfügbar. Sie können jede App von dieser Liste oder von der "
+"entsprechenden Detailseite durch klicken auf den entsprechenden "
+"Downloadbutton herunterladen."
+
+#: /var/www/html/google/views/help.phtml:58
+msgid "Click on the <i>Download App</i> button to start the download."
+msgstr ""
+"Klicken Sie auf den &quot;<i>Download App</i>&quot;-Button um den Download "
+"zu starten."
+
+#: /var/www/html/google/views/help.phtml:63
+#, php-format
+msgid "Proceed with %sinstalling%s the app."
+msgstr "Fahren Sie mit der %sInstallation%s der App fort."
+
+#: /var/www/html/google/views/help.phtml:64
+#, php-format
+msgid ""
+"When you download an app using one of the above methods,\n"
+"                            the app language will be American English. Use "
+"the %sdownload tool%s\n"
+"                            if you want to use an other language."
+msgstr ""
+"Wenn Sie eine App mit einer der oben genannten Methoden herunterladen, wird "
+"die Sprache Deutsch sein. Benutzen Sie das %sDownload Werkzeug%s, wenn Sie "
+"eine andere Sprache verwenden möchten."
+
+#: /var/www/html/google/views/help.phtml:71
+#: /var/www/html/google/views/help.phtml:76
+msgid "Login"
+msgstr "Anmelden"
+
+#: /var/www/html/google/views/help.phtml:72
+#: /var/www/html/google/views/device.phtml:7
+msgid "Devices"
+msgstr "Geräte"
+
+#: /var/www/html/google/views/help.phtml:73
+msgid "Download apps"
+msgstr "Apps Herunterladen"
+
+#: /var/www/html/google/views/help.phtml:79
+#: /var/www/html/google/views/help.phtml:114
+msgid "Use an own Google Account"
+msgstr "Ein eigenes Google Konto verwendet"
+
+#: /var/www/html/google/views/help.phtml:83
+#, php-format
+msgid ""
+"In most cases you should use the anonymous login function so that "
+"<strong>Google won't receive any\n"
+"                                    information about you and you do not "
+"need to give away any credentials.</strong>\n"
+"                                    However there are some limitations "
+"compared to using an\n"
+"                                    %sown Google account%s:<br>\n"
+"                                    <ul>\n"
+"                                        <li>You can only download free apps."
+"</li>\n"
+"                                        <li>Apps from some countries might "
+"be blocked.</li>\n"
+"                                        <li>English, German, Spanish, "
+"French, Russian and Mandarin Chinese are the only supported languages.</li>\n"
+"                                        <li>You cannot choose between "
+"different types of devices.</li>\n"
+"                                    </ul>\n"
+"                                    If you can't live with any of the above "
+"limitations you need to login with an\n"
+"                                    %sown Google account%s.<br>\n"
+"                                    <br>\n"
+"                                    To login anonymously read the %sterms of "
+"service%s\n"
+"                                    and confirm that you accept them. Then "
+"click on the \"Anonymous Login\" button."
+msgstr ""
+"In den meisten Fällen sollten Sie die anonyme Log-in Funktion nutzen, sodass "
+"<strong>Google keine Informationen über Sie erhält und Sie keine "
+"Anmeldedaten preisgeben müssen</strong>. Es gibt jedoch einige Nachteile "
+"gegenüber einem %seigenen Google Account%s:<br><ul><li>Sie können nur "
+"kostenlose Apps herunterladen.</li><li>Apps für einige Länder sind eventuell "
+"blockiert.</li><li>Deutsch, Englisch, Spanisch, Französisch, Russisch und "
+"Mandarin Chinesisch sind die einzigen unterstützten Sprachen.</li><li>Sie "
+"können nicht zwischen verschiedenen Gerätetypen wählen.</li></ul>Sollten Sie "
+"mit einer der obigen Einschränkungen Probleme haben, müssen Sie sich mit "
+"einem %seigenen Google Account%s anmelden.<br><br>Um sich anonym anzumelden, "
+"lesen Sie die %sAGB%s und akzeptieren Sie sie. Klicken Sie dann auf den "
+"„<i>Anonym anmelden</i>“-Knopf."
+
+#: /var/www/html/google/views/help.phtml:115
+#, php-format
+msgid ""
+"In some cases it might be useful to use an own Google account over an "
+"anonymous one.<br><br>\n"
+"                                    To login with an own Google account read "
+"the %sterms of service%s\n"
+"                                    and confirm that you accept them. Then "
+"click on the \"Login with your own Google account\" button.\n"
+"                                    A dialog should roll out into which you "
+"need to enter the e-mail and password for your Google account,\n"
+"                                    then click on the \"Log in\" button."
+msgstr ""
+"In manchen Fällen kann es von Vorteil sein, einen eigenen Google Account zu "
+"benutzen.<br><br>Um sich mit einem eigenen Account anzumelden, lesen Sie die "
+"%sAGB%s und akzeptieren Sie sie. Klicken Sie dann auf den <i>„Eigenes Google "
+"Konto verwenden“</i>-Knopf. Ein Dialog sollte aufklappen, indem Sie Ihre E-"
+"Mail-Adresse und Ihr Passwort für Ihren Google Account eingeben müssen. "
+"Klicken Sie dann auf den <i>„Anmelden“</i>-Knopf"
+
+#: /var/www/html/google/views/help.phtml:133
+msgid ""
+"In order to download apps from the Play Store, Google requires you to "
+"specify the device with which you download.\n"
+"                                That's why app-download.org creates fake "
+"devices. When you use the anonymous login function you can choose from a\n"
+"                                few devices that have been created for this "
+"purpose."
+msgstr ""
+"Google verlangt eine detaillierte Spezifikation des Gerätes, mit dem Apps "
+"heruntergeladen werden; deswegen erstellt App-Download.org fingierte "
+"virtuelle Geräte. Wenn Sie den anonymen Anmeldemodus benutzen, können Sie "
+"aus einer Liste von Geräten wählen, die für diesen Zweck angelegt wurde."
+
+#: /var/www/html/google/views/help.phtml:139
+msgid "Devices available in anonymous login mode."
+msgstr "Geräte, die im anonymen Anmeldemodus verfügbar sind."
+
+#: /var/www/html/google/views/help.phtml:143
+msgid ""
+"If you use an own Google account you have more options and you can attach an "
+"infinite number\n"
+"                                of devices of different models and with "
+"different languages. If your device isn't listed in the list of models,\n"
+"                                picking a similar device will work in most "
+"cases. If you don't know what to choose <strong>Nexus 5</strong>\n"
+"                                will usually be a good choice. Give your "
+"devices meaningful names so that you can distinguish them."
+msgstr ""
+"Wenn Sie einen eigenen Google Account verwenden, haben Sie mehr Optionen und "
+"können eine unendliche Anzahl an Geräten, von unterschiedlichen Modellen und "
+"in verschiedenen Sprachen erstellen. Sollte Ihr Gerät in der Liste von "
+"verfügbaren Modellen nicht auftauchen: wählen Sie ein ähnliches Gerät; wenn "
+"Sie sich unsicher sind ist <strong>Nexus 5</strong> in der Regel eine gute "
+"Wahl. Geben Sie Ihren Geräten aussagekräftige Namen, sodass Sie sie "
+"unterscheiden können."
+
+#: /var/www/html/google/views/help.phtml:149
+msgid "Download Apps"
+msgstr "Apps Herunterladen"
+
+#: /var/www/html/google/views/help.phtml:150
+#, php-format
+msgid ""
+"To download an app you will need to find out it's package name.\n"
+"                                Go to the %sPlay Store%s and search for the "
+"app\n"
+"                                you want to download. Once you have found "
+"it, get it's package name from the url.\n"
+"                                <strong>I know this is uncomfortable. I'm "
+"working on a way to improve this, so hang on.</strong>"
+msgstr ""
+"Um eine App herunterzuladen, müssen Sie ihren Paketnamen herausfinden. "
+"Besuchen Sie den %sPlay Store%s und suchen Sie nach der App, die Sie "
+"herunterladen möchten. Wenn Sie sie gefunden haben, extrahieren Sie den "
+"Paketnamen aus der URL. <strong>Ich arbeite an einem bequemerem Verfahren – "
+"bitte haben Sie Geduld.</strong>"
+
+#: /var/www/html/google/views/help.phtml:158
+msgid "Get the package name from the url."
+msgstr "Den Paketnamen erhalten Sie aus der URL."
+
+#: /var/www/html/google/views/help.phtml:164
+msgid "Then enter the id into the download box."
+msgstr "Tragen Sie dann den Paketnamen in die Downloadbox ein."
+
+#: /var/www/html/google/views/help.phtml:170
+msgid "Install Apps"
+msgstr "Apps installieren"
+
+#: /var/www/html/google/views/help.phtml:173
+msgid "Allow unknown sources"
+msgstr "Apps unbekannter Herkunft zulassen"
+
+#: /var/www/html/google/views/help.phtml:174
+msgid "Installation Process"
+msgstr "Installationsvorgang"
+
+#: /var/www/html/google/views/help.phtml:178
+msgid "Unknown Sources"
+msgstr "Apps aus unbekannter Herkunft"
+
+#: /var/www/html/google/views/help.phtml:179
+msgid ""
+"Before you can install apps with app-download.org\n"
+"                                you need to allow apps to be installed from "
+"unknown sources on your mobile device"
+msgstr ""
+"Bevor Sie Apps mit App-Download.org installieren können, müssen Sie das "
+"Installieren von Apps aus unbekannter Herkunft zulassen"
+
+#: /var/www/html/google/views/help.phtml:185
+msgid "Launch the Settings app from the app launcher."
+msgstr "Öffnen Sie die <i>„Einstellungen“</i>-App aus dem App Launcher."
+
+#: /var/www/html/google/views/help.phtml:191
+msgid "Open the submenu called \"Security\"."
+msgstr "Öffnen Sie das Untermenü <i>„Sicherheit“</i>."
+
+#: /var/www/html/google/views/help.phtml:197
+msgid "Enable app installation from unknown sources."
+msgstr "Erlauben Sie Apps aus unbekannter Herkunft."
+
+#: /var/www/html/google/views/help.phtml:203
+msgid "Installation Processs"
+msgstr "Installtionsvorgang"
+
+#: /var/www/html/google/views/help.phtml:204
+msgid ""
+"The easiest way to install apps on your device is to use app-download.org\n"
+"                            directly on your mobile device."
+msgstr ""
+"Der einfachste Weg Apps auf Ihren Gerät zu installieren ist App-Download.org "
+"direkt auf Ihrem Gerät zu nutzen."
+
+#: /var/www/html/google/views/help.phtml:210
+msgid ""
+"After you started the download using the download button, you will see a "
+"download\n"
+"                                        notification in the notification "
+"area."
+msgstr ""
+"Nachdem Sie den Download mit dem Download-Button gestartet haben, sollte der "
+"Downloadvorgang im Benachrichtigungsbereich auftauchen."
+
+#: /var/www/html/google/views/help.phtml:217
+msgid "When the download completes double click on the downloaded apk file."
+msgstr ""
+"Sobald der Download abgeschlossen ist: klicken Sie auf die heruntergeladene "
+"APK Datei."
+
+#: /var/www/html/google/views/help.phtml:223
+msgid "An installation dialog should open. Confirm with install."
+msgstr ""
+"Ein Installationsdialog sollte sich öffnen: bestätigen Sie mit "
+"„Installieren“."
+
+#: /var/www/html/google/views/help.phtml:230
+msgid "Update Apps"
+msgstr "Apps Updaten"
+
+#: /var/www/html/google/views/help.phtml:231
+msgid ""
+"To update apps simply download them again. When you double click on the "
+"downloaded app\n"
+"                        a update dialog will open instead of an installation "
+"dialog."
+msgstr ""
+"Um Apps zu aktualisieren, muss man Sie einfach erneut herunterladen und "
+"installieren. Anstelle eines Installationsdialog sollte sich ein "
+"Updatedialog öffnen."
+
+#: /var/www/html/google/views/help.phtml:236
+msgid "The following features are planned but not yet implemented"
+msgstr "Die folgenden Punkte sind geplant aber noch nicht implementiert"
+
+#: /var/www/html/google/views/help.phtml:238
+msgid "Better ways to search for apps"
+msgstr "Bessere Suchmöglichkeiten für Apps"
+
+#: /var/www/html/google/views/help.phtml:239
+msgid "Supporting paid apps"
+msgstr "Bezahlbare Apps unterstützen"
+
+#: /var/www/html/google/views/index.phtml:11
+msgid "Welcome to App-Download.org the alternative to the Play Store"
+msgstr "Willkommen auf App-Download.org – die Alternative zum Play Store"
+
+#: /var/www/html/google/views/index.phtml:13
+msgid ""
+"App-Download.org is a client for the Play Store with it you can download any "
+"<strong>app</strong>\n"
+"from <strong>Google's Play Store</strong> onto your Kindle Fire or any other "
+"<strong>Android</strong>\n"
+"device. No rooting required. <strong>You won't loose your warranty!</strong> "
+"Enjoy everything the Play Store\n"
+"has to offer without needing Google's <strong>gapps</strong>. Stop Google "
+"from tracking you but still be able to\n"
+"get every app for Android in it's <strong>newest version</strong>. Make use "
+"of the <strong>anonymous</strong> login function\n"
+"to download apps without revealing your true identity. Whether you got a\n"
+"Kindle Fire, Samsung Galaxy, Google Nexus, HTC, LG Optimus, Sony Xperia or "
+"any other Android device App-Download.org\n"
+"works for all of them."
+msgstr ""
+"App-Download.org ist ein Client für den Play Store, mit ihm können Sie jede "
+"<strong>App</strong>, aus dem <strong>Google Play Store</strong>, auf Ihr "
+"Kindle Fire oder jedes andere <strong>Android</strong> Gerät herunterladen. "
+"Ihr Gerät muss nicht gerootet sein.  <strong>Die Garantie bleibt erhalten!</"
+"strong> Nutzen Sie alle Vorteile des Play Stores, ohne Googles gapps zu "
+"brauchen. Verhindern Sie, dass Google Sie verfolgt, aber bekommen Sie "
+"trotzdem alle Apps in der <strong>neusten Version</strong>.  Benutzen Sie, "
+"die <strong>Anonyme Login Funktion</strong> um Apps herunterzuladen ohne "
+"ihre Identität preis zu geben. Ob Sie ein Kindle Fire, Samsung Galaxy, "
+"Google Nexus, HTC, LG Optimus, Sony Xperia oder ein anderes Android-Gerät "
+"besitzen – App-Download.org funktioniert mit allen."
+
+#: /var/www/html/google/views/index.phtml:22
+msgid ""
+"This service is ideal for devices that do not come with the Play Store (like "
+"the Kindle Fire) or for users\n"
+"            that do not want to install gapps on their custom Android roms "
+"like <strong>CyanogenMod</strong>\n"
+"            or <strong>ParanoidDroid</strong>."
+msgstr ""
+"Dieser Service ist ideal für Geräte, die nicht mit dem Play Store "
+"ausgeliefert werden (wie dem Kindle Fire) oder für Benutzer, die nicht gapps "
+"in ihrer \"custom rom\", wie <strong>CyanogenMod</strong> oder "
+"<strong>ParanoidDroid</strong>, installieren möchten."
+
+#: /var/www/html/google/views/index.phtml:28
+#, php-format
+msgid "If you need help with anything click on any of the %s-signs."
+msgstr "Wenn Sie Hilfe benötigen, klicken Sie auf eins der Fragezeichen (%s)."
+
+#: /var/www/html/google/views/terms.phtml:14
+msgid "By using this service you agree to the following terms"
+msgstr "Wenn Sie diesen Dienst verwenden, akzeptieren Sie folgende Bedingungen"
+
+#: /var/www/html/google/views/terms.phtml:17
+msgid ""
+"If you login with an own Google account your password needs to be stored in "
+"volatile memory\n"
+"                                from the time you log in until you click on "
+"the <strong>logout button</strong> or your session times out."
+msgstr ""
+"Wenn Sie sich mit einen eigenen Google Account anmelden, muss Ihr Passwort, "
+"von dem Moment an, indem Sie sich einloggen, bis Sie den <strong>Log-out "
+"Knopf</strong> drücken oder Ihre Sitzung abläuft im flüchtigen Speicher "
+"gespeichert werden."
+
+#: /var/www/html/google/views/terms.phtml:21
+msgid ""
+"If you login with an own Google account an encrypted version of your e-mail "
+"address\n"
+"                                needs to be permanently stored to remember "
+"devices you created using this service."
+msgstr ""
+"Wenn Sie einen eigenen Google Account verwenden, muss Ihre E-Mail-Adresse in "
+"verschlüsselter Form dauerhaft gespeichert werden, um Ihren Account Geräte "
+"zuzuordnen, die Sie mit diesem Dienst erstellen."
+
+#: /var/www/html/google/views/terms.phtml:25
+msgid ""
+"In order to provide secure user management a session cookie needs to be "
+"set.\n"
+"                                This cookie will be used for identification. "
+"It wil be deleted when you click on the\n"
+"                                <strong>logout button</strong>, when your "
+"session times out or when you close your browser."
+msgstr ""
+"Um sicheres Benutzermanagement anzubieten, muss ein Sessioncookie gesetzt "
+"werden. Dieser Cookie wird verwendet, um Sie zu identifizieren. Er wird "
+"gelöscht, wenn Sie auf den <strong>Log-out Knopf</strong> drücken, wenn Ihre "
+"Sitzung abläuft oder wenn Sie Ihren  Browser schließen."
+
+#: /var/www/html/google/views/terms.phtml:30
+#, php-format
+msgid ""
+"To provide a better user experience anonymous data is collected about your "
+"usage of this service.\n"
+"                                This service will not track you across "
+"domains.\n"
+"                                %sPiwik%s is used for this task."
+msgstr ""
+"Um die Benutzerfreundlichkeit dieses Dienstes zu verbessern, werden Daten in "
+"anonymisierter Form darüber gesammelt, wie Sie diesen Dienst verwenden. "
+"Dieser Dienst verfolgt Sie nicht über Domains hinweg. %sPiwik%s wird hierfür "
+"verwendet."
+
+#: /var/www/html/google/views/terms.phtml:35
+msgid ""
+"If you login with an own Google account the identity of your Google account\n"
+"                                will be transmitted to Google."
+msgstr ""
+"Wenn Sie einen eigenen Google Account verwenden, wird die Identität Ihres "
+"Google Accounts an Google gesendet."
+
+#: /var/www/html/google/views/terms.phtml:39
+msgid ""
+"THIS SERVICE IS PROVIDED BY Sebastian Gellweiler AS IS AND ANY EXPRESS OR "
+"IMPLIIED WARRANTIES\n"
+"                        ARE DISCLAIMED. IN NO EVENT SHALL Sebastian "
+"Gellweiler BE HOLD LIABLE FOR ANY DIRECT,\n"
+"                        INDIRECT, INCIDENTIAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL DAMAGES. ESPECIALLY CAN Sebastian Gellweiler\n"
+"                        NOT BE HOLD RESPONSIBLE IF YOUR CREDENTIALS ARE "
+"STOLEN BY A THIRD PARTY."
+msgstr ""
+"DIESER DIENST WIRD VON Sebastian Gellweiler OHNE JEGLICHE SPEZIELLE ODER "
+"IMPLIZIERTE GARANTIEN ZUR VERFÜGUNG GESTELLT.  AUF KEINEN FALL KANN "
+"Sebastian Gellweiler FÜR IRGENDWELCHE DIREKTEN, INDIREKTEN, ZUFÄLLIGEN, "
+"SPEZIELLEN, BEISPIELHAFTEN ODER FOLGESCHÄDEN VERANTWORTLICH GEMACHT WERDEN. "
+"INSBESONDERE KANN Sebastian Gellweiler NICHT BELANGT WERDEN, WENN DRITTE "
+"IHRE IDENTIFIKATIONSDATEN STEHLEN."
+
+#: /var/www/html/google/views/terms.phtml:43
+msgid ""
+"THIS SERVICE IS PROVIDED BY A GERMAN FROM GERMANY. Sebastian Gellweiler "
+"CANNOT BE HOLD RESPONSIBLE\n"
+"                        FOR VIOLATING ANY LAWS THAT DO NOT APPLY IN GERMANY. "
+"IF YOU VIOLATE ANY LAWS IN YOUR COUNTRY BY USING THIS\n"
+"                        SERVICE Sebastian Gellweiler CANNOT BE HOLD "
+"RESPONSIBLE."
+msgstr ""
+"Dieser Service wird aus Deutschland betrieben. Es gilt die in Deutschland "
+"gültige Rechtslage. WENN SIE AUẞERHALB VON DEUTSCHLAND AUF DIESEN DIENST "
+"ZUGREIFEN, KANN Sebastian Gellweiler NICHT FÜR DORT GELTENDES RECHT IN "
+"VERANTWORTUNG GEZOGEN WERDEN. WENN SIE DORT GELTENDES RECHT VERLETZEN, KANN "
+"Sebastian Gellweiler NICHT VERANTWORTLICH GEMACHT WERDEN."
+
+#: /var/www/html/google/views/footer.phtml:6
+msgid "Menu"
+msgstr "Menü"
+
+#: /var/www/html/google/views/footer.phtml:18
+#, php-format
+msgid ""
+"A <strong>free</strong> service brought to you by %sSebastian Gellweiler%s."
+msgstr "Ein <strong>kostenloser</strong> Service von %sSebastian Gellweiler%s."
+
+#: /var/www/html/google/views/footer.phtml:23
+msgid "Built with"
+msgstr "Erstellt mit"
+
+#: /var/www/html/google/views/footer.phtml:27
+#, php-format
+msgid "Protobuf files from %s by %s"
+msgstr "Protobuf Dateien aus %s von %s"
+
+#: /var/www/html/google/views/footer.phtml:34
+#, php-format
+msgid "%s by %s"
+msgstr "%s von %s"
+
+#: /var/www/html/google/views/footer.phtml:41
+#, php-format
+msgid "%s design by %s"
+msgstr "%s Design von %s"
+
+#: /var/www/html/google/views/footer.phtml:48
+#, php-format
+msgid "%s designed by %s"
+msgstr "%s von %s"
+
+#: /var/www/html/google/views/footer.phtml:55
+#, php-format
+msgid "jQuery plugin %s by %s based on %s by %s"
+msgstr "jQuery Plugin %s von %s, basierend auf %s von %s"
+
+#: /var/www/html/google/views/device.phtml:19
+msgid "Your devices"
+msgstr "Ihre Geräte"
+
+#: /var/www/html/google/views/device.phtml:56
+msgid "new device"
+msgstr "neues Gerät"
+
+#: /var/www/html/google/views/device.phtml:79
+msgid "Device to Registrer"
+msgstr "Das anzumeldende Gerät"
+
+#: /var/www/html/google/views/device.phtml:87
+msgid "The country of the device"
+msgstr "Die Sprache des Gerätes"
+
+#: /var/www/html/google/views/device.phtml:98
+msgid "A name for your device"
+msgstr "Ein Name für Ihr Gerät"
+
+#: /var/www/html/google/views/device.phtml:104
+msgid "a name for the device"
+msgstr "ein Name für Ihr Gerät"
+
+#: /var/www/html/google/views/device.phtml:126
+msgid "add device"
+msgstr "Gerät erstellen"
+
+#: /var/www/html/google/views/device.phtml:151
+msgid "Change Device"
+msgstr "Gerät wechseln"
+
+#: /var/www/html/google/views/apps.phtml:4
+msgid "Top 500 free Apps"
+msgstr "Top 500 Apps"
+
+#: /var/www/html/google/views/apps.phtml:13
+msgid ""
+"Download the 500 most popular free apps\n"
+"                    directly from the Play Store\n"
+"                    onto your <strong>Kindle Fire</strong>\n"
+"                    or any other <strong>Android</strong> device."
+msgstr ""
+"Laden Sie die 500 beliebtesten kostenlosen Apps direkt aus dem Play Store "
+"auf Ihr <strong>Kindle Fire</strong> oder jedes andere <strong>Android</"
+"strong>-Gerät herunter."
+
+#: /var/www/html/google/views/apps.phtml:37
+msgid "details"
+msgstr "Details"
+
+#: /var/www/html/google/views/privacy.phtml:16
+#: /var/www/html/google/views/privacy.phtml:24
+msgid "Area of Application"
+msgstr "Geltungsbereich"
+
+#: /var/www/html/google/views/privacy.phtml:17
+#: /var/www/html/google/views/privacy.phtml:32
+msgid "Access Data / Server Logfiles"
+msgstr "Datenschutzerklärung"
+
+#: /var/www/html/google/views/privacy.phtml:18
+#: /var/www/html/google/views/privacy.phtml:37
+msgid "Piwik"
+msgstr "Piwik"
+
+#: /var/www/html/google/views/privacy.phtml:19
+#: /var/www/html/google/views/privacy.phtml:50
+msgid "2 Click Social Media Buttons"
+msgstr "2-Klick-Buttons"
+
+#: /var/www/html/google/views/privacy.phtml:20
+#: /var/www/html/google/views/privacy.phtml:59
+msgid "Cancelation, Changes, Corrections and Actualizations"
+msgstr "Widerruf, Änderungen, Berichtigungen und Aktualisierungen"
+
+#: /var/www/html/google/views/privacy.phtml:26
+#, php-format
+msgid ""
+"This Data Privacy Statement explains why and for what purpose personal data "
+"is collected by the responsible provider [%s] when using this service."
+"<br><br>The legal basis of data protection in German law are stated in the "
+"Federal Data Protection Act (BDSG) and the Telemedia Act (TMG)."
+msgstr ""
+"Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke "
+"der Erhebung und Verwendung personenbezogener Daten durch den "
+"verantwortlichen Anbieter [%s] auf dieser Website (im folgenden “Angebot”) "
+"auf.<br><br> Die rechtlichen Grundlagen des Datenschutzes finden sich im "
+"Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG)."
+
+#: /var/www/html/google/views/privacy.phtml:33
+msgid ""
+"The provider and his web space provider collect data about every access to "
+"this service (through the so called server log files). This includes:"
+"<ul><li>the name of the accessed content</li><li>the requested file</"
+"li><li>date and time of the request</li><li>transmitted amount of data</"
+"li><li>success of data transmission</li><li>browser ( incl. version) and "
+"operating system used by the client</li><li>the referer URL (page visited "
+"before)</li><li>IP address</li><li>the internet service provider</li></"
+"ul>The provider uses this data only for statistical evaluations for security "
+"reasons and for optimizing this service. The provider reserves the right to "
+"look through log data, if a concrete suspicion exists that a client is "
+"involved in illegal actions."
+msgstr ""
+"Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über "
+"jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den "
+"Zugriffsdaten gehören:<ul><li>Name der abgerufenen Webseite</li><li>Datei, "
+"Datum und Uhrzeit des Abrufs</li><li> übertragene Datenmenge</li><li>Meldung "
+"über erfolgreichen Abruf</li><li>Browsertyp nebst Version</li><li>das "
+"Betriebssystem des Nutzers</li><li>Referrer URL (die zuvor besuchte Seite)</"
+"li><li>IP-Adresse</li><li>Provider</li></ul>Der Anbieter verwendet die "
+"Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der "
+"Sicherheit und der Optimierung des Angebotes. Der Anbieter behält sich "
+"jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund "
+"konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen "
+"Nutzung besteht."
+
+#: /var/www/html/google/views/privacy.phtml:39
+#, php-format
+msgid ""
+"This service uses %sPiwik%s an open source software for statistical "
+"evaluations of user actions. Piwik uses so called \"cookies\", text files "
+"that are stored on the user's computer and allow analyzing his/her behavior "
+"on this service. Through the usage of cookies collected data is stored on "
+"the server of the provider in Germany. Ip addresses get anonymized after "
+"processing and before storing them. Users can forbid the usage of cookies in "
+"their browsers but some parts of this service are only fully functional with "
+"cookies enabled."
+msgstr ""
+"Dieses Angebot benutzt %sPiwik%s, eine Open-Source-Software zur "
+"statistischen Auswertung der Nutzerzugriffe. Piwik verwendet sog. “Cookies”, "
+"Textdateien, die auf dem Computer der Nutzer gespeichert werden und die eine "
+"Analyse der Benutzung der Website durch die Nutzer ermöglichen. Die durch "
+"den Cookie erzeugten Informationen über die Benutzung dieses Agebotes werden "
+"auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird "
+"sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Nutzer "
+"können die Installation der Cookies durch eine entsprechende Einstellung "
+"Ihrer Browser-Software verhindern; Der Anbieter weist die Nutzer jedoch "
+"darauf hin, dass sie in diesem Fall gegebenenfalls nicht sämtliche "
+"Funktionen dieser Website vollumfänglich nutzen können."
+
+#: /var/www/html/google/views/privacy.phtml:52
+msgid ""
+"App-Download.org uses so called \"2 Click Social Media Buttons\" for "
+"Facebook and Google+. That way your browser only contacts the corrosponding "
+"providers if you activly click on one of the grayed out buttons or you set a "
+"button to be permanently active. Those providers are: Facebook Inc., 1601 S. "
+"California Ave, Palo Alto, CA 94304, USA; Google Inc., 1600 Amphitheatre "
+"Parkway, Mountain View, CA 94043, USA; Twitter Inc., 795 Folsom St., Suite "
+"600, San Francisco, CA 94107, USA.<br><br>If a button is active and you are "
+"currently logged in (or you log in) the corrosponding provider may connect "
+"your profile on that social network with the web page on which the button "
+"appears. This is done through so called \"cookies\", small text files that "
+"the named providers save on your computer and that can be used to identify "
+"you. Even if you aren't activly logged in, those providers could connect "
+"your profile with the information received through the buttons (for example "
+"through your IP address). Further  information about the usage of private "
+"data by the named providers can be found in their data privacy statements:  "
+"https://www.facebook.com/about/privacy/, http://developers.google.com/+/web/"
+"buttons-policy, http://twitter.com/privacy.<br><br>If you set a button to be "
+"permanently active, your browser sends constantly data to the corrosponding "
+"provider. A cookie (socialSharePrivacy_*) will be set  to remember your "
+"disicion. By doing so you agree in the sense of the TMG (German Telemedia "
+"Act) that the named providers may receive information about you through the "
+"buttons. You can revoke that decision at any time by deleting the cookie or "
+"by using the menu with a gear on it, near the social media buttons."
+"<br><br>The connection to the named providers is encrypted, however the "
+"servers of those providers are often located outside of the european union. "
+"Therefore private data is usally not treated properly according to european "
+"standards. Furthermore authorities outside Germany may get access to that "
+"data through the servers.<br><br>Active buttons are colored (opposed to "
+"gray) and the corrosponding switch is active (turned to the right)."
+"<br><br>Buttons from Facebook.inc use the Facebook logo (a blue \"f\" on "
+"white background or a \"thumps-up\" sign). Buttons for Google+ have the sign "
+"\"+1\" or \"g+1\" on them. Twitter uses a stylized blue bird in the "
+"combination with \"Twitter\", \"Tweet\" or \"Follow\"."
+msgstr ""
+"App-Download.org verwendet sogenannte 2-Klick-Buttons für Facebook, Google+ "
+"und Twitter. Dabei öffnet Ihr Browser, erst dann eine Verbindung zu dem "
+"entsprechenden Anbieter, wenn Sie aktiv auf eine der ausgegrauten "
+"Schaltflächen drücken oder eine Schaltfläche dauerhaft aktiv gestellt haben. "
+"Bei den Anbietern handelt es sich um: Facebook Inc., 1601 S. California Ave, "
+"Palo Alto, CA 94304, USA; Google Inc., 1600 Amphitheatre Parkway, Mountain "
+"View, CA 94043, USA; Twitter Inc., 795 Folsom St., Suite 600, San Francisco, "
+"CA 94107, USA.<br><br>Ist eine Schaltflächen aktiv und Sie sind bei dem "
+"entsprechenden Dienst aktuell angemeldet (bzw. melden sich an), kann der "
+"entsprechende Betreiber Ihr dort angelegtes Konto mit der Webseite, auf der "
+"die entsprechende Schaltfläche eingebunden ist in Verbindung bringen. Dies "
+"geschieht durch sog. \"Cookies\", Textdateien, die die genannten Anbieter "
+"auf Ihrem Computer ablegen und mit denen Sie identifiziert werden können. "
+"Selbst wenn Sie aktuell nicht angemeldet sind, können die genannten Anbieter "
+"eventuell durch aktive Schaltflächen erhaltene Informationen mit Ihnen "
+"verknüpfen (z.B. über Ihre IP-Adresse). Nähere Informationen über die "
+"Verwendung privater Daten durch die erwähnten Anbieter finden Sie in deren "
+"Datenschutzerklärungen: https://www.facebook.com/about/privacy/, http://www."
+"google.com/intl/de/+/policy/+1button.html und http://twitter.com/privacy."
+"<br><br>Schalten Sie eine Schaltfläche auf dauerhaft aktiv, sendet Ihr "
+"Browser permanent Daten an den entsprechenden Anbieter. Ihre dauerhafte "
+"Zustimmung wird in einem Cookie (socialSharePrivacy_*) im Sinne des TMG "
+"protokolliert. Sie erklären sich damit einverstanden, dass der entsprechende "
+"Anbieter Informationen über Sie durch die entsprechende Schaltfläche erhält. "
+"Sie können diese Einwillung jederzeit im Menü unter dem Zahnrad neben (oder "
+"unter) den entsprechenden Schaltflächen widerrufen oder den Cookie von Hand "
+"löschen – was einer Widerrufung gleichkommt.<br><br>Die Datenübertragung zum "
+"Anbieter erfolgt verschlüsselt. Allerdings befinden sich die Server der "
+"genannten Anbieter zum Teil im nicht EU-Ausland. Daher werden Daten in der "
+"Regel nicht mit den in der EU geltenden Standards für Datenschutz behandelt. "
+"Über die Server könnten außerdem ausländische Behörden Zugriff auf "
+"übermittelte Daten erhalten.<br><br>Aktive Schaltflächen erkennen Sie daran, "
+"dass entsprechende Schaltflächen farbig sind, außerdem ist der neben der "
+"Schaltfläche liegende Schalter auf aktiv (nach rechts gerückt) gestellt."
+"<br><br>Schaltflächen der Facebook Inc. erkennen Sie am Facebook Logo "
+"(blaues \"f\" auf weißer Kachel oder ein \"Daumen hoch\"-Zeichen). Buttons "
+"der Google Inc. sind an dem Zeichen \"+1\" erkennbar (manchmal in der "
+"Kombination mit einem \"g\"). Der Dienst Twitter verwendet einen "
+"stilisierten blauen Vogel in der Kombination mit den Begriffen \"Twitter\" "
+"oder \"Folge\"."
+
+#: /var/www/html/google/views/privacy.phtml:61
+msgid ""
+"The user has the right to receive information about the personal data that "
+"is stored about him free of charge upon stating a request. Additional he has "
+"the right to request correction, locking and deletion of his personal data, "
+"provided that no legal obligation exists to keep them."
+msgstr ""
+"Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über "
+"die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat "
+"der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und "
+"Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche "
+"Aufbewahrungspflicht entgegensteht."
+
+#: /var/www/html/google/views/privacy.phtml:67
+msgid "Sources"
+msgstr "Quellen"
+
+#: /var/www/html/google/views/download.phtml:5
+#: /var/www/html/google/views/download.phtml:44
+msgid "Download"
+msgstr "Download"
+
+#: /var/www/html/google/views/download.phtml:15
+msgid "Package to download"
+msgstr "Herunterzuladendes Paket"
+
+#: /var/www/html/google/views/download.phtml:35
+msgid "Packagename of app"
+msgstr "Paketname der App"
+
+#: /var/www/html/google/views/afterdownload.phtml:6
+#: /var/www/html/google/views/afterdownload.phtml:47
+msgid "Close"
+msgstr "Schließen"
+
+#: /var/www/html/google/views/afterdownload.phtml:8
+msgid "Download in progress"
+msgstr "Download läuft"
+
+#: /var/www/html/google/views/afterdownload.phtml:11
+msgid "The download of your app is in progress."
+msgstr "Der Download der App läuft gerade."
+
+#: /var/www/html/google/views/afterdownload.phtml:13
+msgid "Next Steps:"
+msgstr "Die nächsten Schritte:"
+
+#: /var/www/html/google/views/afterdownload.phtml:17
+#, php-format
+msgid ""
+"Before you can install apps from App-Download.org\n"
+"                        on your android device, you need to %sallow "
+"installing apps from unknown sources%s."
+msgstr ""
+"Bevor Sie Apps mit App-Download.org installieren können, müssen Sie das "
+"%sInstallieren von Apps aus unbekannter Herkunft zulassen%s."
+
+#: /var/www/html/google/views/afterdownload.phtml:27
+msgid "The download appears in the notification area of your device."
+msgstr "Der Downloadvorgang taucht im Benachrichtigungsbereich auf."
+
+#: /var/www/html/google/views/afterdownload.phtml:34
+msgid "When the download completes click on the apk file."
+msgstr "Sobald der Download abgeschlossen ist: klicken Sie auf die APK Datei."
+
+#: /var/www/html/google/views/afterdownload.phtml:41
+msgid "An installation dialog should open. Confirm with \"Install\"."
+msgstr ""
+"Ein Installationsdialog sollte sich öffnen: Bestätigen Sie mit \"Installieren"
+"\"."
+
+#~ msgid "Apps on Amazon"
+#~ msgstr "Apps bei Amazon"
+
+#~ msgid "Amazon Affiliate Program"
+#~ msgstr "Amazon-Partnerprogramm"
+
+#~ msgid ""
+#~ "%s is a member of the affiliate program by Amazon Europe S.à.r.l. and a "
+#~ "partner of the advertising system for web pages, through which money can "
+#~ "be earned by placing advertisements and links to Amazon. Amazon uses "
+#~ "cookies, for tracing the origin of orders. Amazon can detect, that you "
+#~ "clicked on a partner link. Further information about the data usage by "
+#~ "Amazon is available in their %sprivacy statement%s."
+#~ msgstr ""
+#~ "%s ist Teilnehmer des Partnerprogramms von Amazon Europe S.à.r.l. und "
+#~ "Partner des Werbeprogramms, das zur Bereitstellung eines Mediums für "
+#~ "Websites konzipiert wurde, mittels dessen durch die Platzierung von "
+#~ "Werbeanzeigen und Links zu amazon.de Werbekostenerstattung verdient "
+#~ "werden können. Amazon setzt Cookies ein, um die Herkunft der Bestellungen "
+#~ "nachvollziehen zu können. Unter anderem kann Amazon erkennen, dass Sie "
+#~ "den Partnerlink auf dieser Website geklickt haben. Weitere Informationen "
+#~ "zur Datennutzung durch Amazon erhalten Sie in der %sDatenschutzerklärung"
+#~ "%s des Unternehmens."
+
+#~ msgid "more"
+#~ msgstr "mehr"
+
+#~ msgid "Flattr"
+#~ msgstr "Flattr"
+
+#~ msgid ""
+#~ "This service uses \"Flattr\" buttons from the micro-payment service "
+#~ "Flattr, a service operated by the company Flattr Network Ltd., 2nd Floor, "
+#~ "White bear yard 114A, Clerkenwell Road, London, Middlesex, England. If "
+#~ "you access a web page from this service that has such a button, your "
+#~ "browser opens a direct connection to the servers from Flattr. If you are "
+#~ "logged in with a Flattr account, Flattr knows that you visited that web "
+#~ "page. If you're logged in to Flattr and you interact with a Flattr "
+#~ "button, information about that will be transmitted to Flattr and will be "
+#~ "used by them for billing purposes according to their policies. Even if "
+#~ "you are not logged in, data about the usage of this service may be "
+#~ "collected and stored by Flattr. The privacy statement from Flattr can be "
+#~ "found here: %s"
+#~ msgstr ""
+#~ "In Seiten dieses Angebotes sind  „Flattr“-Schaltflächen des Micropayment-"
+#~ "Dienstes Flattr eingebunden, der von der Firma Flattr Network Ltd. mit "
+#~ "Sitz in 2nd Floor, White bear yard 114A, Clerkenwell Road, London, "
+#~ "Middlesex, England, EC1R 5DF, Großbritannien, betrieben wird. Wenn Sie "
+#~ "Seiten dieses Internetangebots, die diese Schaltflächen enthalten, "
+#~ "aufrufen, wird von Ihrem Browser eine direkte Verbindung zu Servern von "
+#~ "Flattr hergestellt. Sofern Sie bei Flattr ein Konto angelegt haben, mit "
+#~ "dem Sie gleichzeitig eingeloggt sind, erhält Flattr die Information, dass "
+#~ "Sie die jeweilige Seite dieses Angebots besucht haben. Sofern Sie ein "
+#~ "Flattr-Konto besitzen, eingeloggt sind und mit der Schaltfläche "
+#~ "interagieren, werden Informationen darüber an Flattr übermittelt und nach "
+#~ "den dort geltenden Richtlinien dort zu Abrechnungszwecken gespeichert. "
+#~ "Auch wenn Sie nicht eingeloggt sind, können ggf. Nutzungsdaten erhoben "
+#~ "und auch gespeichert werden. Wie Ihre Daten genau verarbeitet werden, "
+#~ "wenn Sie die Flattr-Schaltfläche anklicken, erfahren Sie unter %s."
+
+#~ msgid "Donate"
+#~ msgstr "Spenden"
+
+#~ msgid ""
+#~ "You can use the links from the <i>Popular apps</i> box to download the "
+#~ "newest version\n"
+#~ "                        of some popular apps. If you click on any of them "
+#~ "the app will be downloaded\n"
+#~ "                        for you from the Play Store. Proceed with "
+#~ "%sinstalling%s the app."
+#~ msgstr ""
+#~ "Sie können die Links aus der „<i>Beliebte Apps</i>“-Box verwenden, um die "
+#~ "neuste Version einiger Apps herunterzuladen. Wenn Sie auf einen der Links "
+#~ "klicken, wird die App für Sie aus dem Play Store heruntergeladen. Fahren "
+#~ "Sie mit der %sInstallation %s der App fort."

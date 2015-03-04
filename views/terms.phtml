@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php qe(_('Terms of Service')); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <h1 class="text-center"><?php qe(_('Terms of Service')); ?></h1>
+                <div class="row typography-row">
+                    <div class="col-lg-12">
+                        <?php echo _('By using this service you agree to the following terms'); ?>:
+                        <ol>
+                            <li>
+                                <?php echo _ ('If you login with an own Google account your password needs to be stored in volatile memory
+                                from the time you log in until you click on the <strong>logout button</strong> or your session times out.'); ?>
+                           </li>
+                            <li>
+                                <?php echo _('If you login with an own Google account an encrypted version of your e-mail address
+                                needs to be permanently stored to remember devices you created using this service.'); ?>
+                            </li>
+                            <li>
+                                <?php echo _('In order to provide secure user management a session cookie needs to be set.
+                                This cookie will be used for identification. It wil be deleted when you click on the
+                                <strong>logout button</strong>, when your session times out or when you close your browser.'); ?>
+                            </li>
+                            <li>
+                                <?php echo _f('To provide a better user experience anonymous data is collected about your usage of this service.
+                                This service will not track you across domains.
+                                %sPiwik%s is used for this task.', '<a href="http://piwik.org">', '</a>'); ?>
+                            </li>
+                            <li>
+                                <?php echo _('If you login with an own Google account the identity of your Google account
+                                will be transmitted to Google.'); ?>
+                            </li>
+                        </ol>
+                        <p><?php echo _('THIS SERVICE IS PROVIDED BY Sebastian Gellweiler AS IS AND ANY EXPRESS OR IMPLIIED WARRANTIES
+                        ARE DISCLAIMED. IN NO EVENT SHALL Sebastian Gellweiler BE HOLD LIABLE FOR ANY DIRECT,
+                        INDIRECT, INCIDENTIAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES. ESPECIALLY CAN Sebastian Gellweiler
+                        NOT BE HOLD RESPONSIBLE IF YOUR CREDENTIALS ARE STOLEN BY A THIRD PARTY.'); ?></p>
+                        <p><?php echo _('THIS SERVICE IS PROVIDED BY A GERMAN FROM GERMANY. Sebastian Gellweiler CANNOT BE HOLD RESPONSIBLE
+                        FOR VIOLATING ANY LAWS THAT DO NOT APPLY IN GERMANY. IF YOU VIOLATE ANY LAWS IN YOUR COUNTRY BY USING THIS
+                        SERVICE Sebastian Gellweiler CANNOT BE HOLD RESPONSIBLE.'); ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php $this->display('footer'); ?>
+    </body>
+</html>

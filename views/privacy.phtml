@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php echo _('Data Privacy Statement'); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <div class="row typography-row">
+                <div class="col-lg-12">
+                    <h3><?php echo _('Data Privacy Statement'); ?></h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#area-of-application"><?php echo _('Area of Application'); ?></a></li>
+                            <li><a href="#logs"><?php echo _('Access Data / Server Logfiles'); ?></a></li>
+                            <li><a href="#piwik"><?php echo _('Piwik'); ?></a></li>
+                            <li><a href="#social-media"><?php echo _('2 Click Social Media Buttons'); ?></a></li>
+                            <li><a href="#miscellaneous"><?php echo _('Cancelation, Changes, Corrections and Actualizations'); ?></a></li>
+                        </ul>
+                    </nav>
+                    <div id="area-of-application">
+                        <h4><?php echo _('Area of Application'); ?></h4>
+                        <p><?php echo _f(
+                            'This Data Privacy Statement explains why and for what purpose personal data is collected by the responsible provider [%s] when using this service.<br><br>The legal basis of data protection in German law are stated in the Federal Data Protection Act (BDSG) and the Telemedia Act (TMG).',
+                            'Sebastian Gellweiler; Am Tannenhof 14, 53721 Siegburg; info<i class="at"></i>app-download.org'
+                        ); ?></p>
+                    </div>
+
+                    <div id="logs">
+                        <h4><?php echo _('Access Data / Server Logfiles'); ?></h4>
+                        <p><?php echo _('The provider and his web space provider collect data about every access to this service (through the so called server log files). This includes:<ul><li>the name of the accessed content</li><li>the requested file</li><li>date and time of the request</li><li>transmitted amount of data</li><li>success of data transmission</li><li>browser ( incl. version) and operating system used by the client</li><li>the referer URL (page visited before)</li><li>IP address</li><li>the internet service provider</li></ul>The provider uses this data only for statistical evaluations for security reasons and for optimizing this service. The provider reserves the right to look through log data, if a concrete suspicion exists that a client is involved in illegal actions.');?></p>
+                    </div>
+
+                    <div id="piwik">
+                        <h4><?php echo _('Piwik'); ?></h4>
+                        <p><?php echo _f(
+                        'This service uses %sPiwik%s an open source software for statistical evaluations of user actions. Piwik uses so called "cookies", text files that are stored on the user\'s computer and allow analyzing his/her behavior on this service. Through the usage of cookies collected data is stored on the server of the provider in Germany. Ip addresses get anonymized after processing and before storing them. Users can forbid the usage of cookies in their browsers but some parts of this service are only fully functional with cookies enabled.',
+                            '<a href="http://piwik.org/" target="_blank">',
+                            '</a>'
+                        ); ?></p>
+                        <iframe
+                            style="border: 0; height: 250px; width: 600px;"
+                            src="https://www.app-download.org/piwik/index.php?module=CoreAdminHome&action=optOut&language=<?php echo LANGUAGE; ?>"
+                        ></iframe>
+                    </div>
+
+                    <div id="social-media">
+                        <h4><?php echo _('2 Click Social Media Buttons'); ?></h4>
+                        <?php echo _(
+                            'App-Download.org uses so called "2 Click Social Media Buttons" for Facebook and Google+. That way your browser only contacts the corrosponding providers if you activly click on one of the grayed out buttons or you set a button to be permanently active. Those providers are: Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA; Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA.<br><br>If a button is active and you are currently logged in (or you log in) the corrosponding provider may connect your profile on that social network with the web page on which the button appears. This is done through so called "cookies", small text files that the named providers save on your computer and that can be used to identify you. Even if you aren\'t activly logged in, those providers could connect your profile with the information received through the buttons (for example through your IP address). Further  information about the usage of private data by the named providers can be found in their data privacy statements:  https://www.facebook.com/about/privacy/, http://developers.google.com/+/web/buttons-policy, http://twitter.com/privacy.<br><br>If you set a button to be permanently active, your browser sends constantly data to the corrosponding provider. A cookie (socialSharePrivacy_*) will be set  to remember your disicion. By doing so you agree in the sense of the TMG (German Telemedia Act) that the named providers may receive information about you through the buttons. You can revoke that decision at any time by deleting the cookie or by using the menu with a gear on it, near the social media buttons.<br><br>The connection to the named providers is encrypted, however the servers of those providers are often located outside of the european union. Therefore private data is usally not treated properly according to european standards. Furthermore authorities outside Germany may get access to that data through the servers.<br><br>Active buttons are colored (opposed to gray) and the corrosponding switch is active (turned to the right).<br><br>Buttons from Facebook.inc use the Facebook logo (a blue "f" on white background or a "thumps-up" sign). Buttons for Google+ have the sign "+1" or "g+1" on them. Twitter uses a stylized blue bird in the combination with "Twitter", "Tweet" or "Follow".'
+                        ); ?>
+                    </div>
+
+                    <br>
+
+                    <div id="miscellaneous">
+                        <h4><?php echo _('Cancelation, Changes, Corrections and Actualizations'); ?></h4>
+                        <p><?php echo _(
+                            'The user has the right to receive information about the personal data that is stored about him free of charge upon stating a request. Additional he has the right to request correction, locking and deletion of his personal data, provided that no legal obligation exists to keep them.'
+                        ); ?></p>
+                    </div>
+
+                    <br>
+
+                    <p><?php echo _('Sources'); ?>:<br>
+                    <a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/" >
+                        <strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a></p>
+
+
+                </div>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+    </body>
+</html>

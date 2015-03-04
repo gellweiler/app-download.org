@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64pt" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="Clip0">
+   <path d="M0 0 L0 64 L64 64 L64 0 L0 0 Z" transform="translate(0, 0)"/>
+  </clipPath>
+ </defs>
+ <g id="Background">
+  <g id="Group1" clip-path="url(#Clip0)">
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M21 32 L3 32 L3 4 C3 3.4482 3.4482 3 4 3 L20 3 C20.5518 3 21 3.4482 21 4 L21 32 Z M12 38 C10.8955 38 10 37.1045 10 36 C10 34.8955 10.8955 34 12 34 C13.1045 34 14 34.8955 14 36 C14 37.1045 13.1045 38 12 38 Z M20 0 L4 0 C1.791 0 0 1.791 0 4 L0 36 C0 38.209 1.791 40 4 40 L20 40 C22.209 40 24 38.209 24 36 L24 4 C24 1.791 22.209 0 20 0 Z" transform="translate(20, 10)"/>
+   <path style="fill:#485a6d; fill-rule:nonzero;stroke:none;" d="M44 46 C44 48.209 42.209 50 40 50 L24 50 C21.791 50 20 48.209 20 46 L20 14 C20 11.791 21.791 10 24 10 L40 10 C42.209 10 44 11.791 44 14 L44 46 Z M32 0 C14.3271 0 0 14.3271 0 32 C0 49.6729 14.3271 64 32 64 C49.6729 64 64 49.6729 64 32 C64 14.3271 49.6729 0 32 0 Z" transform="translate(0, 0)"/>
+   <path style="fill:#485a6d; fill-rule:nonzero;stroke:none;" d="M17 0 L1 0 C0.4482 0 0 0.4482 0 1 L0 29 L18 29 L18 1 C18 0.4482 17.5518 0 17 0 Z" transform="translate(23, 13)"/>
+   <path style="fill:#485a6d; fill-rule:nonzero;stroke:none;" d="M2 0 C0.8955 0 0 0.8955 0 2 C0 3.1045 0.8955 4 2 4 C3.1045 4 4 3.1045 4 2 C4 0.8955 3.1045 0 2 0 Z" transform="translate(30, 44)"/>
+  </g>
+ </g>
+</svg>

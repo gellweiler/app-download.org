@@ -1,0 +1,236 @@
+/* Styles for widgets. */
+.tile {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tile-center {
+    height: 7em;
+}
+
+.tile-bottom {
+    height: 3em;
+}
+
+.tile-center-bottom {
+    height: 10em;
+}
+
+/* Make primary panel fit in look. */
+.panel-primary {
+  border-color: #1ABC9C;
+}
+
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+
+.panel-primary > .panel-heading:hover {
+    background-color: #48C9B0;
+}
+
+.panel-primary {
+    position: relative;
+    z-index: 101;
+}
+
+.panel-primary * .panel-title a:hover,
+.panel-primary * .panel-title a:focus {
+    color: #fff;
+}
+
+.left-dropdown .btn-group {
+    padding-right: 5px;
+    width: 50%;
+    float: left;
+}
+
+.right-dropdown .btn-group {
+    padding-left: 5px;
+    width: 50%;
+    float: right;
+}
+
+.left-dropdown * .dropdown-menu,
+.right-dropdown * .dropdown-menu {
+    width: 200% !important;
+    height: 100px;
+}
+
+.right-dropdown * .dropdown-menu {
+    left: -100%;
+}
+
+footer {
+    color: #485A6D;
+}
+
+.git-frame {
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 55px;
+    display: inline-block;
+}
+
+.footer-banner {
+    margin-left:0;
+}
+
+.at:before {
+    content: '@';
+}
+
+.help-img {
+    width: 550px;
+}
+
+.help-content {
+    max-width: 800px;
+    min-width: 600px;
+    border-right: 1px inset #485A6D;
+    margin: 2em;
+}
+
+.input-with-help {
+    padding-right: 40px;
+}
+
+.input-help {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 42px;
+    line-height: 42px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 100;
+}
+
+.help-inverse,
+.help-inverse:active,
+.help-inverse:hover {
+    color: #fff !important;
+}
+
+.form-special {
+    position: fixed !important;
+    top : -10000px !important;
+    left: -10000px !important;
+}
+
+.checkbox-terms {
+    margin: 0;
+    font-size: 17px;
+}
+
+.app-list-item {
+    min-width: 9.5em;
+}
+
+.footer-menu {
+    min-height: 23em;
+}
+
+.btn-app {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 10px 7px;
+}
+
+.teaser-box {
+    overflow: hidden;
+}
+
+.social_share_privacy_area {
+    margin: 0px;
+}
+
+.footer-ad,
+.footer-content{
+    padding-top: 1em;
+}
+
+/* Improve spacing of share buttons and make them collapse properly.*/
+/* Use important to override js loaded stylesheet of social media buttons plugin. */
+
+ul.social_share_privacy_area.line {
+    height: auto !important;
+}
+
+ul.social_share_privacy_area.line li {
+    margin-left: 10px !important;
+    height: 35px !important;
+    width: 60px !important;
+    vertical-align: middle;
+}
+
+ul.social_share_privacy_area.line li.gplus {
+    width: 70px !important;
+}
+
+ul.social_share_privacy_area.line li.gplus.info_off {
+    width: 90px !important;
+}
+ul.social_share_privacy_area.line li.twitter {
+    width: 90px !important;
+}
+ul.social_share_privacy_area.line li.twitter.info_off {
+    width: 115px !important;
+}
+
+ul.social_share_privacy_area.line li.facebook {
+    width: 85px !important;
+}
+
+ul.social_share_privacy_area.line li.facebook.info_off {
+    width: 110px !important;
+}
+
+ul.social_share_privacy_area.line li.facebook:lang(de) {
+    width: 110px !important;
+}
+
+ul.social_share_privacy_area.line li.facebook.info_off:lang(de) {
+    width: 140px !important;
+}
+
+ul.social_share_privacy_area.line li.help_info .switch {
+    position: absolute !important;
+    display: block !important;
+}
+
+ul.social_share_privacy_area.line li.help_info .dummy_btn  {
+    margin-left: 30px !important;
+}
+
+ul.social_share_privacy_area.line li.help_info .info {
+    position: absolute !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    margin-top: 40px !important;
+}
+
+.text-center ul.social_share_privacy_area.line li {
+    float: none !important;
+    text-align: left;
+}
+
+/* Helper classes. */
+.no-padd-margin {
+    padding: 0;
+    margin: 0;
+}
+
+/* Images omn the afterdownload modal. */
+.afterdownload-img {
+    width: 100%;
+    vertical-align: top;
+}

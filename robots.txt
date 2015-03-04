@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*/download/direct
+
+Sitemap: https://www.app-download.org/en/sitemap.xml
+Sitemap: https://www.app-download.org/de/sitemap.xml
+Sitemap: https://www.app-download.org/en/sitemapapps/index
+Sitemap: https://www.app-download.org/de/sitemapapps/index

@@ -1,0 +1,25 @@
+message DownloadMessageA {
+    required DownloadMessageB next = 1;
+}
+
+message DownloadMessageB {
+    required DownloadMessageC next = 4;
+}
+
+message DownloadMessageC {
+    required DownloadMessageD next = 39;
+}
+
+message DownloadMessageD {
+    required DownloadInformation downloadInformation = 8;
+}
+
+message DownloadInformation {
+    required string url = 3;
+    required Cookie cookie = 5;
+}
+
+message Cookie {
+    required string name = 1;
+    required string value = 2;
+}

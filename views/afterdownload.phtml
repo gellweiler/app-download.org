@@ -1,0 +1,50 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times</span>
+                <span class="sr-only"><?php echo _('Close'); ?></span>
+            </button>
+            <h4 class="modal-title"><?php echo _('Download in progress'); ?></h4>
+        </div>
+        <div class="modal-body">
+            <p><?php echo _('The download of your app is in progress.'); ?></p>
+            <br>
+            <strong><?php echo _('Next Steps:'); ?></strong>
+            <ol>
+                 <li>
+                     <p>
+                         <?php echo _f('Before you can install apps from App-Download.org
+                        on your android device, you need to %sallow installing apps from unknown sources%s.',
+                        '<a target="_blank" href="' . q(url('help')) . '#unknown-sources">',
+                        '</a>'); ?>
+                     </p>
+                 </li>
+                <li>
+                    <p>
+                        <img class="afterdownload-img" src="<?php qe(BASE_URL); ?>/img/downloading_small.png">
+                        <br>
+                        <span class="media-body"><?php echo _('The download appears in the notification area of your device.'); ?></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img class="afterdownload-img" src="<?php qe(BASE_URL); ?>/img/download-completed_small.png">
+                        <br>
+                        <span class="media-body"><?php echo _('When the download completes click on the apk file.'); ?></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img class="afterdownload-img" src="<?php qe(BASE_URL); ?>/img/install_small.png">
+                        <br>
+                        <span class="media-body"><?php echo _('An installation dialog should open. Confirm with "Install".'); ?></span>
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo _('Close'); ?></button>
+        </div>
+    </div>
+</div>

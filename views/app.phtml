@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php qe(_f('Download %s', $this->title)); ?></title>
+        <?php $this->display('head'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="add-container tile">
+                        <h1 class="h3"><?php qe($this->title); ?></h1>
+                        <?php qe(_('by')); ?> <strong><?php qe($this->author); ?></strong>
+                        <br>
+                        <div class="btn-app">
+                            <a
+                                class="btn btn-success piwik_download download"
+                                style="width:100%;"
+                                href="<?php qe($this->downloadUrl); ?>"
+                            >
+                                <i aria-hidden="true" class="glyphicon glyphicon-download-alt notranslate"></i>
+                                &nbsp;<?php qe(_('Download App')); ?>
+                            </a>
+                            <a
+                                class="glyphicon glyphicon-question-sign input-help help-inverse notranslate"
+                                aria-hidden="true"
+                                target="_blank"
+                                href="<?php qe(url('help')); ?>#top-500"
+                            ></a>
+                        </div>
+                        <a
+                            class="btn btn-default btn-info btn-xs"
+                            href="<?php qe($this->playstoreUrl); ?>"
+                            target="blank"
+                        >
+                            <i aria-hidden="true" class="glyphicon glyphicon-play notranslate"></i>
+                            &nbsp;<?php qe(_('Show in Play Store')); ?>
+                        </a>
+
+                        <div
+                            id="socialmediabuttons"
+                            data-social-share-privacy="true"
+                            data-layout="line"
+                            class="pvl text-center"
+                        ></div>
+
+                        <div class="text-left">
+                            <strong><?php qe(_('Description')); ?>:</strong>
+                            <div class="well">
+                                <?php echo $this->teaser; ?>
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <div class="bs-callout bs-callout-info">
+                                <?php echo _f(
+                                    'Download <strong>%s</strong> using the %sdownload link%s to install'
+                                    . ' <strong>%s</strong> on your <strong>Kindle Fire</strong> or any other'
+                                    . ' <strong>Android</strong> device.',
+                                    q($this->package . '.apk'),
+                                    '<a class="download" href="' . q(url('download/direct/' . $this->package)) . '">',
+                                    '</a>',
+                                    q($this->title),
+                                    '<a href="' . q(url('help')) . '#install" target="blank">',
+                                    '</a>'
+
+                                ); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+        <div
+            id="afterdownload"
+            class="modal"
+            role="dialog">
+        </div>
+    </body>
+</html>

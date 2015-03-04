@@ -1,0 +1,61 @@
+<div class="col-md-4">
+    <div class="tile">
+        <?php /* Split each tile into 3 rows (.tile-top, .tile-center, .tile-bottom). */ ?>
+        <div class="tile-top">
+            <h4><?php qe(_('Download')); ?></h4>
+            <img
+                src="<?php qe(BASE_URL); ?>ext-libs/circle-icons/<?php qe($this->active ? 'full' : 'one'); ?>-color/download.svg"
+                class="tile-image big-illustration"
+            >
+        </div>
+        <?php if ($this->state == AppState::MARKET): ?>
+            <form role="form" action="<?php qe(url('download/prepare')); ?>" method="get">
+                <div class="tile-center">
+                    <div class="form-group">
+                        <label for="package" class="sr-only"><?php qe(_('Package to download')); ?>:</label>
+                        <div class="input-group" >
+                            <div class="input-group-addon">
+                                <i
+                                    aria-hidden="true"
+                                    style="font-size: 1.2em;"
+                                    class="glyphicon glyphicon-download-alt notranslate"
+                                ></i>
+                            </div>
+                            <a
+                                aria-hidden="true"
+                                class="input-help glyphicon glyphicon-question-sign notranslate"
+                                href="<?php qe(url('help')); ?>#download"
+                                target="_blank"
+                            ></a>
+                            <input
+                                id="package"
+                                class="input-with-help form-control"
+                                type="text"
+                                name="package"
+                                placeholder="<?php qe(_('Packagename of app')); ?>"
+                                required
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="tile-bottom">
+                    <div style="position: relative">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <?php qe(_('Download')); ?>
+                        </button>
+                         <a
+                            aria-hidden="true"
+                            class="input-help help-inverse glyphicon glyphicon-question-sign notranslate"
+                            href="<?php qe(url('help')); ?>#install"
+                            target="_blank"
+                        ></a>
+                    </div>
+                </div>
+                <?php input_token(); ?>
+            </form>
+        <?php elseif ($this->state < AppState::MARKET): ?>
+            <div class="tile-center"></div>
+            <div class="tile-bottom"></div>
+        <?php endif; ?>
+    </div><!-- /.tile -->
+</div><!-- /.col -->

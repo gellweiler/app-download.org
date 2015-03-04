@@ -1,0 +1,82 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-banner footer-menu">
+                    <h3 class="footer-title"><?php qe(_('Menu')); ?></h3>
+                    <ul><?php foreach(unserialize(MENU) as $controller => $label): ?>
+                        <?php if($this->controller != $controller): ?>
+                            <li><a href="<?php qe(url($controller)); ?>">
+                              <?php qe($label); ?></a></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?></ul>
+                </div>
+            </div>
+
+            <div class="col-md-5 footer-content">
+                <p><?php echo _f(
+                    'A <strong>free</strong> service brought to you by %sSebastian Gellweiler%s.',
+                    '<a href="http://sebastian.gellweiler.net">',
+                    '</a>'
+                ); ?>
+                </p>
+                <strong><?php qe(_('Built with')); ?>:</strong>
+                <ul class="list-unstyled">
+                    <li>
+                        <?php echo _f(
+                            'Protobuf files from %s by %s',
+                            '<a href="//github.com/nviennot/android-checkin/">android-checkin</a>',
+                            '<a href="http://velvetpulse.com">Nicolas Viennot</a>'
+                        ); ?>
+                    </li>
+                    <li>
+                        <?php echo _f(
+                            '%s by %s',
+                            '<a href="//drslump.github.com/Protobuf-PHP/">Protobuf-PHP</a>',
+                            '<a href="http://pollinimini.net">Iván -DrSlump- Montes</a>'
+                        ); ?>
+                    </li>
+                    <li>
+                        <?php echo _f(
+                            '%s design by %s',
+                            '<a href="http://designmodo.com/flat-free/">Flat-UI</a>',
+                            '<a href="http://designmodo.com/">designmodo</a>'
+                        ); ?>
+                    </li>
+                    <li>
+                        <?php echo _f(
+                            '%s designed by %s',
+                            '<a href="http://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free">Free Flat Icons</a>',
+                            '<a href="http://www.elegantthemes.com">ElegantThemes.com</a>'
+                        ); ?>
+                    </li>
+                    <li>
+                        <?php echo _f(
+                            'jQuery plugin %s by %s based on %s by %s',
+                            '<a href="https://github.com/panzi/SocialSharePrivacy">SocialSharePrivacy</a>',
+                            '<a href="http://hackworthy.blogspot.de/">M.&nbsp;Panzenböck</a>',
+                            '<a href="http://www.heise.de/extras/socialshareprivacy/">socialshareprivacy</a>',
+                            '<a href="http://www.heise.de/">heise</a>'
+                        ); ?>
+                    </li>
+                    <li>...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.app-download.org/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://www.app-download.org/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->

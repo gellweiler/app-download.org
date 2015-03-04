@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Play Store downloader</title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container main-container">
+            <h4 class="text-center"><?php qe(_('Welcome to App-Download.org the alternative to the Play Store')); ?></h4>
+            <p><?php echo _(
+"App-Download.org is a client for the Play Store with it you can download any <strong>app</strong>
+from <strong>Google's Play Store</strong> onto your Kindle Fire or any other <strong>Android</strong>
+device. No rooting required. <strong>You won't loose your warranty!</strong> Enjoy everything the Play Store
+has to offer without needing Google's <strong>gapps</strong>. Stop Google from tracking you but still be able to
+get every app for Android in it's <strong>newest version</strong>. Make use of the <strong>anonymous</strong> login function
+to download apps without revealing your true identity. Whether you got a
+Kindle Fire, Samsung Galaxy, Google Nexus, HTC, LG Optimus, Sony Xperia or any other Android device App-Download.org
+works for all of them."
+            ); ?></p>
+            <p><?php echo _('This service is ideal for devices that do not come with the Play Store (like the Kindle Fire) or for users
+            that do not want to install gapps on their custom Android roms like <strong>CyanogenMod</strong>
+            or <strong>ParanoidDroid</strong>.'); ?></p>
+
+            <div class="bs-callout bs-callout-info">
+                <?php echo _f(
+                    'If you need help with anything click on any of the %s-signs.',
+                    '<a href="' . url('help') . '" aria-hidden="true" class="glyphicon glyphicon-question-sign notranslate" ></a>'
+                ); ?>
+            </div>
+
+            <?php if(defined('ERROR')): ?>
+                <div class="bs-callout bs-callout-danger">
+                    <?php echo plain2html(ERROR_MESSAGE); ?>
+                </div>
+            <?php endif; ?>
+
+            <?php $this->display('direct_downloads'); ?>
+
+            <div
+                id="socialmediabuttons"
+                data-social-share-privacy="true"
+                data-layout="line"
+                class="pvl text-center"
+            ></div>
+
+            <div class="row">
+                <?php $this->account->_widget(); ?>
+                <?php $this->device->_widget(); ?>
+                <?php $this->download->_widget(); ?>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+        <div
+            id="afterdownload"
+            class="modal"
+            role="dialog">
+        </div>
+    </body>
+</html>

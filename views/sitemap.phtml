@@ -1,0 +1,26 @@
+<?php echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"; ?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+<?php foreach (array(
+    '' => 1.0,
+    'help' => 0.7,
+    'apps' => 0.7,
+    'terms' => 0.3,
+    'contact' => 0.3,
+    'impressum' => 0.3,
+) as $path => $prio): ?>
+    <url>
+        <loc><?php qe(rtrim(url($path), '/')); ?></loc>
+        <priority><?php qe($prio); ?></priority>
+        <?php foreach(array_keys(unserialize(LANGUAGES)) as $lang): ?>
+            <xhtml:link
+                rel="alternate"
+                hreflang="<?php qe($lang); ?>"
+                href="<?php qe(rtrim(url($path, array(), FALSE, $lang), '/')); ?>"
+            />
+        <?php endforeach; ?>
+    </url>
+<?php endforeach; ?>
+</urlset>

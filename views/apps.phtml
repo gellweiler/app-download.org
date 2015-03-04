@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php qe(_('Top 500 free Apps')); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><?php echo _f('Download the 500 most popular free apps
+                    directly from the Play Store
+                    onto your <strong>Kindle Fire</strong>
+                    or any other <strong>Android</strong> device.',
+                    '<a href="' . url('help') . '#install">',
+                    '</a>'); ?></p>
+
+                    <ul class="list-group">
+                    <?php for (
+                        $i = 1, reset($this->result);
+                        $row = current($this->result);
+                        $i++, next($this->result)
+                    ): ?>
+                        <li class="list-group-item">
+                            <h6><a
+                                href="<?php qe($row['detailsUrl']); ?>"
+                            >
+                                <?php qe($i) ?>. <?php qe($row['title']); ?>
+                            </a></h6>
+                            <div class="description">
+                                <?php echo $row['teaser']; ?>
+                                <a
+                                    href="<?php qe($row['detailsUrl']); ?>"
+                                    target="blamk"
+                                >[<?php qe(_('details')); ?>]</a>
+                            </div>
+                            <div class="btn-app">
+                                <a
+                                    class="download btn btn-success btn-large piwik_download"
+                                    style="width:100%;"
+                                    target="_blank"
+                                    href="<?php qe($row['downloadUrl']); ?>"
+                                >
+                                    <i aria-hidden="true" class="glyphicon glyphicon-download-alt notranslate"></i>
+                                    &nbsp;<?php qe(_('Download App')); ?>
+                                </a>
+                                <a
+                                    aria-hidden="true"
+                                    class="glyphicon glyphicon-question-sign input-help help-inverse notranslate"
+                                    target="_blank"
+                                    href="<?php qe(url('help')); ?>#top-500"
+                                ></a>
+                            </div>
+                            <a
+                                class="btn btn-info btn-xs"
+                                href="<?php qe($row['playstoreUrl']); ?>"
+                                target="blank"
+                            >
+                                <i aria-hidden="true" class="glyphicon glyphicon-play notranslate"></i>
+                                &nbsp;<?php qe(_('Show in Play Store')); ?>
+                            </a>
+                        </li>
+                    <?php endfor; ?>
+                    </ul>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+        <div
+            id="afterdownload"
+            class="modal"
+            role="dialog">
+        </div>
+    </body>
+</html>

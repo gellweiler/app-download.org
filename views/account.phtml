@@ -1,0 +1,150 @@
+<div class="col-md-4">
+    <div class="tile">
+
+        <?php /* Split each tile into 3 rows (.tile-top, .tile-center, .tile-bottom). */ ?>
+        <div class="tile-top">
+            <h4><?php qe(_('Google account')); ?></h4>
+            <?php $img = ''; ?>
+            <?php if ($this->incognito): ?>
+                <?php $img = BASE_URL . 'img/nospy.svg'; ?>
+            <?php else: ?>
+                <?php $img = BASE_URL . 'ext-libs/circle-icons/' . ($this->active ? 'full' : 'one') . '-color/profile.svg'; ?>
+            <?php endif; ?>
+            <img class="tile-image big-illustration" src="<?php qe($img); ?>">
+        </div>
+        <?php if($this->state < AppState::LOGGEDIN): ?>
+            <form role="form" name="login" method="post" action="<?php qe(url('account/login')); ?>">
+                <?php input_token(); ?>
+                <div class="tile-center-bottom" id="login-content">
+                    <div class="form-group">
+                        <label for="terms" class="checkbox unchecked checkbox-terms checkbox-inline">
+                            <input
+                                type="checkbox"
+                                name="terms"
+                                data-toggle="checkbox"
+                                id="terms"
+                                value="true"
+                            >
+                            <?php echo _f(
+                                'I have read and accept the %sToS%s',
+                                '<a href="' . q(url('terms')) . '">',
+                                '</a>'
+                            ); ?>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <button
+                            type="submit"
+                            name="type"
+                            value="anonymous"
+                            class="btn btn-block btn-danger"
+                        >
+                            <strong><i aria-hidden="true" class="glyphicon glyphicon-eye-close notranslate"></i>
+                            <?php qe(_('Anonymous Login')); ?></strong>
+                        </button>
+                        <a
+                            aria-hidden="true"
+                            class="input-help glyphicon glyphicon-question-sign help-inverse notranslate"
+                            href="<?php qe(url('help')); ?>#account-anonymous"
+                            target="_blank"
+                        ></a>
+                    </div>
+
+                    <div class="panel-group" id="ident-login">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a
+                                        data-toggle="collapse"
+                                        data-parent="#ident-login"
+                                        href="#ident-login-body"
+                                    >
+                                        <i class="fui-user"></i>
+                                        <?php qe(_('Login with your Google account')); ?>
+                                    </a>
+                                    <a
+                                        aria-hidden="true"
+                                        class="input-help glyphicon glyphicon-question-sign notranslate"
+                                        href="<?php qe(url('help')); ?>#account-own"
+                                        target="_blank"
+                                    ></a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse" id="ident-login-body">
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <label for="email" class="sr-only"><?php qe(_('Your Gmail Email')); ?>:</label>
+                                        <div class="input-group" >
+                                            <div class="input-group-addon">
+                                                <i class="fui-user"></i>
+                                            </div>
+                                            <a
+                                                aria-hidden="true"
+                                                class="input-help glyphicon glyphicon-question-sign notranslate"
+                                                href="<?php qe(url('help')); ?>#account"
+                                                target="_blank"
+                                            ></a>
+                                            <input
+                                                id="email"
+                                                placeholder="<?php qe(_('Gmail address')); ?>"
+                                                class="input-with-help form-control"
+                                                type="email"
+                                                name="email"
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="sr-only"><?php qe(_('Your Gmail Password')); ?>:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fui-lock"></i></div>
+                                            <a
+                                                aria-hidden="true"
+                                                class="input-help glyphicon glyphicon-question-sign notranslate"
+                                                href="<?php qe(url('help')); ?>#account"
+                                                target="_blank"
+                                            ></a>
+                                            <input
+                                                id="password"
+                                                placeholder="<?php qe(_('Password')); ?>"
+                                                type="password"
+                                                class="input-with-help form-control"
+                                                name="password"
+                                            >
+                                        </div>
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        name="type"
+                                        value="identity"
+                                        class="btn btn-primary btn-block"
+                                    ><?php qe(_('Log in')); ?></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        <?php else: ?>
+            <div class="tile-center">
+                <?php if ($this->incognito): ?>
+                    <p><strong><?php qe(_("You're using the incognito login mode")); ?></strong></p>
+                <?php else: ?>
+                    <p><strong><?php qe(_f(
+                        'Welcome %s %s (%s)',
+                        $this->account->firstname,
+                        $this->account->lastname,
+                        $this->account->email
+                    )); ?>
+                    </strong></p>
+                <?php endif; ?>
+            </div>
+            <div class="tile-bottom">
+                <a
+                    href="<?php qe(url_token(url('account/logout'))); ?>"
+                    class="btn btn-block btn-info"
+                >Logout</a>
+            </div>
+        <?php endif; ?>
+    </div><!-- /.tile -->
+</div><!-- /.col -->

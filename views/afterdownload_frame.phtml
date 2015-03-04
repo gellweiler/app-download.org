@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <?php $this->display('head'); ?>
+        <script>
+            jQuery(document).ready(function() {
+                jQuery('#afterdownload').modal('show');
+            });
+        </script>
+    </head>
+    <body style="background: none !important; pointer-events:none;">
+        <div
+            id="afterdownload"
+            class="modal"
+            role="dialog"
+            style="pointer-events: all;"
+        >
+            <?php $this->display('afterdownload'); ?>
+        </div>
+    </body>
+</html>

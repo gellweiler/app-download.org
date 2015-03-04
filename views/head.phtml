@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Language" content="<?php echo LANGUAGE; ?>">
+
+<link href="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/bootstrap/css/docs.min.css" rel="stylesheet">
+<link href="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/css/flat-ui.css" rel="stylesheet">
+<link href="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/css/docs.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/html5shiv.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/respond.min.js"></script>
+<![endif]-->
+
+<link href="<?php qe(BASE_URL); ?>ext-libs/flag-icon-css/css/flag-icon.css" rel="stylesheet">
+
+<link href="<?php qe(BASE_URL); ?>style.css" rel="stylesheet">
+
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/jquery-1.8.3.min.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/jquery.ui.touch-punch.min.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/bootstrap.min.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/bootstrap-select.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/bootstrap-switch.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/flatui-checkbox.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/flatui-radio.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/jquery.tagsinput.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/Flat-UI/js/jquery.placeholder.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/jquery.cookie.js"></script>
+<script src="<?php qe(BASE_URL); ?>ext-libs/jquery.socialshareprivacy/js/jquery.socialshareprivacy.min.autoload.js"></script>
+
+<?php if (LANGUAGE !== 'en'): ?>
+    <script src="<?php qe(BASE_URL); ?>ext-libs/jquery.socialshareprivacy/js/jquery.socialshareprivacy.min.<?php qe(LANGUAGE); ?>.js"></script>
+<?php endif; ?>
+
+<script src="<?php qe(BASE_URL); ?>js/app.js.php?lang=<?php qe(LANGUAGE); ?>"></script>
+
+<?php /* Initialize two click buttons. */ ?>
+<?php $this->display('socialmedia-buttons-settings'); ?>

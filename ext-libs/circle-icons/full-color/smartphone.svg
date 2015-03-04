@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64pt" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="Clip0">
+   <path d="M0 0 L0 64 L64 64 L64 0 L0 0 Z" transform="translate(0, 0)"/>
+  </clipPath>
+ </defs>
+ <g id="Background">
+  <g id="Group1" clip-path="url(#Clip0)">
+   <path style="fill:#e49b56; fill-rule:nonzero;stroke:none;" d="M64 32 C64 49.6729 49.6729 64 32 64 C14.3271 64 0 49.6729 0 32 C0 14.3271 14.3271 0 32 0 C49.6729 0 64 14.3271 64 32 " transform="translate(0, 0)"/>
+   <path style="fill:#c08248; fill-rule:nonzero;stroke:none;" d="M20 36 L4 36 C1.791 36 0 34.209 0 32 L0 0 L0 30 C0 32.209 1.791 34 4 34 L20 34 C20.708 34 21.3721 33.8164 21.9492 33.4941 L22.001 33.6201 L22.001 33.4639 C23.1963 32.7725 24 31.4805 24 30 L24 32 C24 34.209 22.209 36 20 36 " transform="translate(20, 16)"/>
+   <path style="fill:#485a6d; fill-rule:nonzero;stroke:none;" d="M2.5 37 C1.1211 37 0 35.8789 0 34.5 L0 2.5 C0 1.1211 1.1211 0 2.5 0 L18.5 0 C19.8789 0 21 1.1211 21 2.5 L21 34.5 C21 35.8789 19.8789 37 18.5 37 L2.5 37 " transform="translate(21.5, 11.5)"/>
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M20 0 L4 0 C1.791 0 0 1.791 0 4 L0 36 C0 38.209 1.791 40 4 40 L20 40 C22.209 40 24 38.209 24 36 L24 4 C24 1.791 22.209 0 20 0 Z M20 3 C20.5518 3 21 3.4482 21 4 L21 36 C21 36.5518 20.5518 37 20 37 L4 37 C3.4482 37 3 36.5518 3 36 L3 4 C3 3.4482 3.4482 3 4 3 L20 3 " transform="translate(20, 10)"/>
+   <path style="fill:#cd9e71; fill-rule:nonzero;stroke:none;" d="M0.0518 0.1562 L0 0.0302 C0.0176 0.0205 0.0352 0.0097 0.0518 0 L0.0518 0.1562 " transform="translate(41.9492, 49.4639)"/>
+   <path style="fill:#707f8e; fill-rule:nonzero;stroke:none;" d="M13.8994 33.6387 L0 0 L13.1299 0 C13.6817 0 14.1299 0.4482 14.1299 1 L14.1299 33 C14.1299 33.2422 14.043 33.4648 13.8994 33.6387 " transform="translate(26.8701, 13)"/>
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M15.6992 37.9941 L14.5195 35.1387 C14.6631 34.9648 14.75 34.7422 14.75 34.5 L14.75 2.5 C14.75 1.9482 14.3018 1.5 13.75 1.5 L0.6201 1.5 L0 0 L15.751 0 L15.751 37.9639 C15.7344 37.9736 15.7168 37.9844 15.6992 37.9941 " transform="translate(26.25, 11.5)"/>
+   <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M20 8 L4 8 L0 0 L24 0 L20 8 Z" transform="translate(20, 42)"/>
+   <path style="fill:#e7e6d7; fill-rule:nonzero;stroke:none;" d="M4 2 C4 0.8955 3.1045 0 2 0 C0.8955 0 0 0.8955 0 2 C0 3.1045 0.8955 4 2 4 C3.1045 4 4 3.1045 4 2 Z" transform="translate(30, 44)"/>
+  </g>
+ </g>
+</svg>

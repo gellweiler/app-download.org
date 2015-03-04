@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><?php qe(_('Contact')); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+          <div class="container">
+            <?php if(defined('ERROR')): ?>
+                <div class="bs-callout bs-callout-danger">
+                    <?php qe(ERROR_MESSAGE); ?>
+                </div>
+            <?php endif; ?>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1><?php qe(_('Contact')); ?></h1>
+                    <p><?php echo _('Feel free to contact me about anything that got to do with this webpage.
+                        I appreciate feedback. You can write your message in English or German.<br>
+                        You will receive a copy of your message via e-mail.'); ?></p>
+
+                    <?php /* show messages. */ ?>
+                    <?php if (!empty($this->success)): ?>
+                        <div class="alert alert-success">
+                            <?php qe($this->success); ?>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!empty($this->error)): ?>
+                        <div class="alert alert-danger">
+                            <?php qe($this->error); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if (empty($this->success)): ?>
+                        <form method="post" name="contact" action="<?php qe(url('contact/submit')); ?>">
+                            <?php /* Honeypod for stupid bots.*/ ?>
+                            <input
+                                name="email"
+                                class="form-control form-special"
+                                type="email"
+                                <?php /* Prevent simple detection of honeypod. */ ?>
+                                placeholder="<?php echo _('Your e-mail. Lea&nbsp;ve this field&nbsp;&nbsp;E&nbsp;M&nbsp;P&nbsp;T&nbsp;Y'); ?>"
+                            >
+
+                            <label for="name" class="sr-only"><?php qe('Your name'); ?>:</label>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fui-user"></i></div>
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        <?php if (!empty($this->name)) { ?>value="<?php qe($this->name); ?>" <?php } ?>
+                                        placeholder="<?php qe(_('Your Name (not required)')); ?>"
+                                        class="form-control"
+                                    >
+                                </div>
+                            </div>
+                            <label for="emailaddress" class="sr-only"><?php qe(_('Your e-mail address')); ?>:</label>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fui-mail"></i></div>
+                                    <input
+                                        type="email"
+                                        name="emailaddress"
+                                        <?php if (!empty($this->email)) { ?>value="<?php qe($this->email); ?>" <?php } ?>
+                                        placeholder="<?php qe(_('Your e-mail address')); ?>"
+                                        class="form-control"
+                                        required
+                                    >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="sr-only"><?php qe(_('Your message')); ?>:</label>
+                                <textarea
+                                    name="message"
+                                    placeholder="<?php qe(_('Your message')); ?>"
+                                    class="form-control"
+                                    rows="15"
+                                    maxlength="10000"
+                                ><?php if (!empty($this->message)) { qe($this->message); } ?></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info"><?php qe(_('Send message')); ?></button>
+                        </form>
+                    <?php endif; ?>
+                    <br>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<?php echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"; ?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+    <?php while($row = $this->result->fetchArray()): ?>
+        <url>
+            <loc><?php qe($row['url']); ?></loc>
+            <priority>0.5</priority>
+            <changefreq>weekly</changefreq>
+        </url>
+    <?php endwhile; ?>
+</urlset>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php qe(_('Legal Information')); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2><?php qe(_('Legal Information')); ?></h2>
+                    <p>
+                        Sebastian Gellweiler<br>
+                        Am Tannenhof 14<br>
+                        53721 Siegburg<br>
+                    </p>
+                    <p>
+                        <span class="sr-only"><?php qe(_('E-mail')); ?>:</span><i class="fui-mail"></i>&nbsp;
+                        info<i class="at"></i>app-download.org<br>
+                        <span class="sr-only"><?php qe(_('Webpage')); ?>:</span><i class="fui-location"></i>
+                        <a href="http://sebastian.gellweiler.net">sebastian.gellweiler.net</a>
+                    </p>
+                    <br>
+                    <p id="app-teaser">
+                        <h5><?php qe(_('Teasers from App Descriptions from the Play Store')); ?></h5>
+                        <?php echo _f(
+                            'Original copyright owners of the full app descriptions are the individuals/coroporations that wrote the app description or their heirs. Outside of Germany copyright may be transferred to others, so the copyright holders might have changed. Additional third partys may earn the exclusive right of usage. Note that many of the app descriptions do not possess a high enough originality to be protected under copyright law.<br><br>Copyright is a difficult and complex subject. if you believe that the provider is commiting a copyright infringement against you or your company <strong>the provider is willing to remove or change the content in question</strong>.You can contact the provider through the %scontact from%s or you can write an e-mail to %s.<br><br><strong>The provider believes that the short extracts used possess a too low level of originality on their own to be protected under copyright law.</strong>',
+                            '<a href="' . q(url('contact')) . '">',
+                            '</a>',
+                            '<i>info<span class="at"></span>app-download.org</i>'
+                        ); ?>
+                    </p>
+                    <h3></h3>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+    </body>
+</html>

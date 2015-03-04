@@ -1,0 +1,3 @@
+<?php foreach (array_keys(unserialize(LANGUAGES)) as $lang): ?>
+    <meta rel="alternate" hreflang="<?php qe($lang); ?>" href="<?php qe(alt_lang_url($lang)); ?>">
+<?php endforeach; ?>

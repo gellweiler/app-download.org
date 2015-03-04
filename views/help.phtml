@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?php echo _('Help'); ?></title>
+        <?php $this->display('head'); ?>
+        <?php $this->display('alt-lang-meta'); ?>
+    </head>
+    <body>
+        <?php $this->display('header'); ?>
+        <div class="container">
+            <div class="row typography-row">
+                <div class="col-lg-12 help-content">
+                    <h1><?php echo _('Help'); ?></h1>
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li><a href="#popular-apps"><?php echo _('Popular Apps'); ?></a></li>
+                            <li><a href="#download-tool"><?php echo _('Download Tool'); ?></a></li>
+                            <li><a href="#install"><?php echo _('Install apps'); ?></a></li>
+                            <li><a href="#update"><?php echo _('Update apps'); ?></a></li>
+                            <li><a href="#todo"><?php echo _('Todo'); ?></a></li>
+                        </ul>
+                    </nav>
+                    <div id="popular-apps">
+                        <h3><?php echo _('Popular Apps'); ?></h3>
+                        <?php echo _('You can download the newest version of some popular apps, from one of the following places:'); ?>
+                        <ul>
+                            <li id="popular-apps-box">
+                                <h6><?php echo _('The Popular Apps Box'); ?></h6>
+                                <?php echo _f('You can download a few apps from the <i>Popular Apps</i> box on the %sfront page%s
+                                by clicking on any of the links in the box.',
+                                '<a href="' . q(url('')) . '">',
+                                '</a>'
+                                ); ?>
+                                <div class="media">
+                                    <img
+                                        class="media-object"
+                                        src="<?php echo BASE_URL; ?>/img/popular-apps.png"
+                                    >
+                                    <div class="media-body">
+                                         <?php echo _('Click on a link to start the download of the corresponding app.'); ?>
+                                    </div>
+                                </div>
+                                <br>
+                            </li>
+                            <li id="top-500">
+                                <h6><?php echo _('The Top 500 Apps List'); ?></h6>
+                                <?php echo _f('The 500 most popular apps from the Play Store are available in the %sTop 500 Apps%s list.
+                                You can download any app from that list or from its detail page by clicking on the corresponding download button.',
+                                '<a href="http://l.google/en/apps">',
+                                '</a>'
+                                ); ?>
+                                <div class="media">
+                                    <img
+                                        class="media-object"
+                                        src="<?php echo BASE_URL; ?>/img/download-app-button.png"
+                                    >
+                                    <div class="media-body">
+                                         <?php echo _('Click on the <i>Download App</i> button to start the download.'); ?>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <?php echo _f('Proceed with %sinstalling%s the app.', '<a href="#install">', '</a>'); ?>
+                        <strong><?php echo _f('When you download an app using one of the above methods,
+                            the app language will be American English. Use the %sdownload tool%s
+                            if you want to use an other language.',
+                        '<a href="#download-tool">', '</a>'); ?></strong>
+                    <div id="download-tool">
+                            <h3><?php echo _('Download Tool'); ?></h3>
+                            <ol>
+                                <li><a href="#account"><?php echo _('Login'); ?></a></li>
+                                <li><a href="#devices"><?php echo _('Devices'); ?></a></li>
+                                <li><a href="#download"><?php echo _('Download apps'); ?></a></li>
+                            </ol>
+                            <div id="account">
+                                <h4><?php echo _('Login'); ?></h4>
+                                <ul>
+                                    <li><a href="#account-anonymous"><?php echo _('Anonymous Login'); ?></a></li>
+                                    <li><a href="#account-own"><?php echo _('Use an own Google Account'); ?></a></li>
+                                </ul>
+                                <div id="account-anonymous">
+                                    <h6><?php echo _('Anonymous Login'); ?></h6>
+                                    <?php echo _f('In most cases you should use the anonymous login function so that <strong>Google won\'t receive any
+                                    information about you and you do not need to give away any credentials.</strong>
+                                    However there are some limitations compared to using an
+                                    %sown Google account%s:<br>
+                                    <ul>
+                                        <li>You can only download free apps.</li>
+                                        <li>Apps from some countries might be blocked.</li>
+                                        <li>English, German, Spanish, French, Russian and Mandarin Chinese are the only supported languages.</li>
+                                        <li>You cannot choose between different types of devices.</li>
+                                    </ul>
+                                    If you can\'t live with any of the above limitations you need to login with an
+                                    %sown Google account%s.<br>
+                                    <br>
+                                    To login anonymously read the %sterms of service%s
+                                    and confirm that you accept them. Then click on the "Anonymous Login" button.',
+
+                                    '<a href="#account-own">',
+                                    '</a>',
+                                    '<a href="#account-own">',
+                                    '</a>',
+                                    '<a href="' . q(url('terms')) . '">',
+                                    '</a>'
+                                    ); ?>
+                                    <div class="media">
+                                        <img
+                                            class="media-object"
+                                            src="<?php echo BASE_URL; ?>/img/anonymous_login.png"
+                                        >
+                                    </div>
+                                </div>
+                                <div id="account-own">
+                                    <h6><?php echo _('Use an own Google Account'); ?></h6>
+                                    <?php echo _f('In some cases it might be useful to use an own Google account over an anonymous one.<br><br>
+                                    To login with an own Google account read the %sterms of service%s
+                                    and confirm that you accept them. Then click on the "Login with your own Google account" button.
+                                    A dialog should roll out into which you need to enter the e-mail and password for your Google account,
+                                    then click on the "Log in" button.',
+                                    '<a href="' . q(url('terms')) . '">',
+                                    '</a>'
+                                    ); ?>
+                                    <div class="media">
+                                        <img
+                                            class="media-object"
+                                            src="<?php echo BASE_URL; ?>/img/google_login.png"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="devices">
+                                <h3>Devices</h3>
+                                <p><?php echo _('In order to download apps from the Play Store, Google requires you to specify the device with which you download.
+                                That\'s why app-download.org creates fake devices. When you use the anonymous login function you can choose from a
+                                few devices that have been created for this purpose.'); ?>
+                                <div class="media">
+                                    <img class="media-object" src="<?php echo BASE_URL; ?>/img/prepared_devices.png">
+                                    <div class="media-body">
+                                         <?php echo _('Devices available in anonymous login mode.'); ?>
+                                    </div>
+                                </div>
+                                <br>
+                                <?php echo _('If you use an own Google account you have more options and you can attach an infinite number
+                                of devices of different models and with different languages. If your device isn\'t listed in the list of models,
+                                picking a similar device will work in most cases. If you don\'t know what to choose <strong>Nexus 5</strong>
+                                will usually be a good choice. Give your devices meaningful names so that you can distinguish them.'); ?></p>
+                            </div>
+                            <div id="download">
+                                <h3><?php echo _('Download Apps'); ?></h3>
+                                <p><?php echo _f('To download an app you will need to find out it\'s package name.
+                                Go to the %sPlay Store%s and search for the app
+                                you want to download. Once you have found it, get it\'s package name from the url.
+                                <strong>I know this is uncomfortable. I\'m working on a way to improve this, so hang on.</strong>',
+                                '<a target="_blank" href="//play.google.com/store/apps">', '</a>'); ?></p>
+                                <div class="media">
+                                    <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/playstore_id.png">
+                                    <div class="media-body">
+                                        <?php echo _('Get the package name from the url.'); ?>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <img class="media-object" src="<?php echo BASE_URL; ?>/img/packagename.png">
+                                    <div class="media-body">
+                                        <?php echo _('Then enter the id into the download box.'); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="install">
+                            <h3><?php echo _('Install Apps'); ?></h3>
+                            <nav>
+                                <ol>
+                                    <li><a href="#unknown-sources"><?php echo _('Allow unknown sources'); ?></a></li>
+                                    <li><a href="#installation-process"><?php echo _('Installation Process'); ?></a></li>
+                                </ol>
+                            </nav>
+                            <div id="unknown-sources">
+                                <h4><?php echo _('Unknown Sources'); ?></h4>
+                                <p><?php echo _('Before you can install apps with app-download.org
+                                you need to allow apps to be installed from unknown sources on your mobile device'); ?>:</p>
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <img width="450" class="media-object help-img" src="<?php echo BASE_URL; ?>/img/app-screen.png">
+                                        <div class="media-body">
+                                            <?php echo _('Launch the Settings app from the app launcher.'); ?>
+                                        </div>
+                                    </li>
+                                    <li class="media">
+                                        <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/settings.png">
+                                        <div class="media-body">
+                                            <?php echo _('Open the submenu called "Security".'); ?>
+                                        </div>
+                                    </li>
+                                    <li class="media">
+                                        <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/unknown-sources.png">
+                                        <div class="media-body">
+                                            <?php echo _('Enable app installation from unknown sources.'); ?>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        <div id="installation-process">
+                            <h4><?php echo _('Installation Processs'); ?></h4>
+                            <p><?php echo _('The easiest way to install apps on your device is to use app-download.org
+                            directly on your mobile device.'); ?></p>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/downloading.png">
+                                    <div class="media-body">
+                                        <?php echo _('After you started the download using the download button, you will see a download
+                                        notification in the notification area.'); ?>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/download-completed.png">
+                                    <div class="media-body">
+                                        <?php echo _('When the download completes double click on the downloaded apk file.'); ?>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <img class="media-object help-img" src="<?php echo BASE_URL; ?>/img/install.png">
+                                    <div class="media-body">
+                                        <?php echo _('An installation dialog should open. Confirm with install.'); ?>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="update">
+                        <h4><?php echo _('Update Apps'); ?></h4>
+                        <p><?php echo _('To update apps simply download them again. When you double click on the downloaded app
+                        a update dialog will open instead of an installation dialog.'); ?></p>
+                    </div>
+                    <div id="todo">
+                        <h4><?php echo _('Todo'); ?></h4>
+                        <p><?php echo _('The following features are planned but not yet implemented'); ?>:</p>
+                        <ul>
+                            <li><?php echo _('Better ways to search for apps'); ?></li>
+                            <li><?php echo _('Supporting paid apps'); ?></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <p><a href="http://sebastian.gellweiler.net">Sebastian Gellweiler</a></p>
+                </div>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+        <?php $this->display('footer'); ?>
+    </body>
+</html>

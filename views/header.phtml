@@ -1,0 +1,38 @@
+<div class="pvl">
+    <ul class="list-inline text-center" role="navigation">
+        <?php
+        $glue = '';
+        foreach(unserialize(MENU) as $controller => $label) {
+            echo $glue;
+
+            $open = $close = '';
+            if ($this->controller != $controller) {
+                $open = '<a href="' . q(url($controller)) . '">';
+                $close = '</a>';
+            }
+            echo '<li>' . $open . q($label) . $close . '</li>';
+
+            $glue = ' | ';
+        }
+        ?>
+    </ul>
+    <ul class="list-inline text-center" role="language">
+        <?php
+        foreach(array_keys(unserialize(LANGUAGES)) as $lang) {
+            $open = $close = '';
+            if ($lang != LANGUAGE) {
+                $open = '<a class="label label-default" href="' . q(alt_lang_url($lang)) . '">';
+                $close = '</a>';
+            }
+            else {
+                $open = '<span class="label label-info">';
+                $close = '</span>';
+            }
+            $lang_country = unserialize(LANG_COUNTRY);
+            $lang_names = unserialize(LANG_NAMES);
+            echo '<li class="notranslate">' . $open . '<span aria-hidden="true" class="flag-icon flag-icon-' .q($lang_country[$lang])
+              . '"></span>&nbsp;' . q($lang_names[$lang]) . $close . '</li>';
+        }
+        ?>
+    </ul>
+</div>

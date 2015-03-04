@@ -1,0 +1,5 @@
+.idea
+inc/config_host.php
+db/*
+piwik/
+controllers/applistcrawler.class.php

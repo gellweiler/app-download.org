@@ -1,0 +1,23 @@
+ErrorDocument 403 /
+
+RewriteEngine ON
+RewriteBase /
+
+RewriteEngine on
+
+# Force https on www subdomain.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+
+
+# Rewrite sitemap .xml urls to the right controllers.
+RewriteRule ^en/sitemap\.xml$ en/sitemap
+RewriteRule ^de/sitemap\.xml$ de/sitemap
+RewriteRule ^de/sitemapapps\.xml$ de/sitemapapps
+RewriteRule ^en/sitemapapps\.xml$ en/sitemapapps
+
+# Rewrite all urls to index.php that can't be fetched from the file system.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [QSA,DPI]

@@ -1,0 +1,8 @@
+<?php echo '<?xml'; ?> version="1.0" encoding="UTF-8" <?php echo '?>'; ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <?php foreach($this->sitemaps as $sitemap): ?>
+        <sitemap>
+            <loc><?php qe($sitemap); ?></loc>
+        </sitemap>
+    <?php endforeach; ?>
+</sitemapindex>

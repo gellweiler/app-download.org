@@ -1,0 +1,7 @@
+message Error {
+    required ErrorMessage message = 2;
+}
+
+message ErrorMessage {
+    required string message = 2;
+}
